@@ -5,14 +5,9 @@ A clean and professional RTSS overlay built for high-visibility performance benc
 
 Includes 3 versions:
 
-## 🌀 2-Fan GPU Design  
+## 🌀 2 & 3-Fan GPU Designs 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5c7e5766-204d-49f4-b3c3-2b4b5c3c4489" width="50%">
-</p>
-
-## 🌀 3-Fan GPU Design  
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/bc181ff0-c0d8-47ec-aee4-763d81b0ef16" width="50%">
+  <img src="https://github.com/user-attachments/assets/5c7e5766-204d-49f4-b3c3-2b4b5c3c4489" width="50%"><img src="https://github.com/user-attachments/assets/bc181ff0-c0d8-47ec-aee4-763d81b0ef16" width="50%">
 </p>
 
 ## ⚡️ Power Detector Module  
