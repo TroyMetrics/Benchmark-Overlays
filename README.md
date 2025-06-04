@@ -2,9 +2,9 @@
 RTSS / RivaTuner Overlay by TroyMetrics
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/552131f2-2e78-424b-ae5f-83c00f1e83a7" height="850">
-  <img src="https://via.placeholder.com/40x1/00000000/00000000?text=+" width="40" height="1">
-  <img src="https://github.com/user-attachments/assets/7718a60b-3d12-4b1e-a850-f8a8b40ea958" height="850">
+  <img src="https://github.com/user-attachments/assets/63aac7bf-cca7-4dff-83d9-80d76f170ab3" style="height: 800px; width: auto;">
+  <img src="https://via.placeholder.com/50x1/00000000/00000000?text=+" width="50" height="1">
+  <img src="https://github.com/user-attachments/assets/27129669-e580-4d93-909e-fcc7153045ed" style="height: 800px; width: auto;">
 </p>
 
 ## Overview
