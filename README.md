@@ -41,7 +41,7 @@ This alert activates when a significant current disparity is detected between pi
 <p align="center">
   <img src="https://github.com/user-attachments/assets/576eaef5-6b23-4abb-a564-92408089ab1b" width="100%"><br><br>
 
-## <img src="https://github.com/user-attachments/assets/6475dda5-6371-435d-9249-acd530e47ce5" width="20"> Minor Power Imbalance
+## <img src="https://github.com/user-attachments/assets/6475dda5-6371-435d-9249-acd530e47ce5" width="20"> Power Imbalance
 
 This warning indicates a moderate deviation in current between pins, signaling potential strain or emerging imbalance in power delivery that should be monitored to maintain safe 12VHPWR compliance.<br>
 <p align="center">
