@@ -1,16 +1,24 @@
-# Benchmark-Overlay
-RTSS / RivaTuner Overlay
+# Benchmark Overlay
+RTSS / RivaTuner Overlay by TroyMetrics
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/552131f2-2e78-424b-ae5f-83c00f1e83a7" height="850">
+  <img src="https://via.placeholder.com/40x1/00000000/00000000?text=+" width="40" height="1">
+  <img src="https://github.com/user-attachments/assets/7718a60b-3d12-4b1e-a850-f8a8b40ea958" height="850">
+</p>
+
+## Overview
 
 A clean and professional RTSS overlay built for high-visibility performance benchmarking. This fully dynamic overlay balances vital metrics with visual clarity and adapts to any Intel or AMD CPU (up to 24 cores), ensuring correct core ordering for accurate real-time hardware insight during gameplay or stress tests.
 
 Includes 3 versions:
 
-## 🌀 2 & 3-Fan GPU Designs 
+### 🌀 2 & 3-Fan GPU Designs 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5c7e5766-204d-49f4-b3c3-2b4b5c3c4489" width="50%"><img src="https://github.com/user-attachments/assets/bc181ff0-c0d8-47ec-aee4-763d81b0ef16" width="50%">
 </p>
 
-## ⚡️ Power Detector Module  
+### ⚡️ Power Detector Module  
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c561f0b4-f033-4f23-9040-41aeb8e561e8" width="100%">
 </p>
