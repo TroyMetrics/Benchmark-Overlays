@@ -1,11 +1,11 @@
 # Benchmark Overlay
 RTSS / RivaTuner Overlay by TroyMetrics
 
-<p>
-  <img src="https://github.com/user-attachments/assets/63aac7bf-cca7-4dff-83d9-80d76f170ab3" style="height: 800px; width: auto;">
-  <img src="https://via.placeholder.com/50x1/00000000/00000000?text=+" width="40" height="1">
-  <img src="https://github.com/user-attachments/assets/27129669-e580-4d93-909e-fcc7153045ed" style="height: 800px; width: auto;">
-</p>
+<div style="display: flex; flex-wrap: wrap; gap: 50px; align-items: flex-start;">
+  <img src="https://github.com/user-attachments/assets/63aac7bf-cca7-4dff-83d9-80d76f170ab3" style="height: 800px; width: auto; max-width: 100%;">
+  <img src="https://github.com/user-attachments/assets/27129669-e580-4d93-909e-fcc7153045ed" style="height: 800px; width: auto; max-width: 100%;">
+</div>
+
 
 ## Overview
 
