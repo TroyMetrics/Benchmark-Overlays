@@ -1,17 +1,21 @@
 <h1 align="center">Benchmark Overlay</h1>
 <p align="center">RTSS / RivaTuner Overlay by TroyMetrics 👻</p>
 
-[![YTThumbnail](https://github.com/user-attachments/assets/f5ef892e-2faf-4521-ac12-0c88caa0baed)](https://youtu.be/WNqMxR4YaeU)
-
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/520c8dd5-131c-44fd-a6b3-5f9c9b92f803" style="max-height: 800px; width: auto;">
-  <span style="display:inline-block; width:40px; text-align:center; font-size:24px;"></span>
-  <img src="https://github.com/user-attachments/assets/aa3e1a77-6825-462d-9360-0163a9251f08" style="max-height: 800px; width: auto;">
+  <a href="https://youtu.be/WNqMxR4YaeU">
+    <img src="https://github.com/user-attachments/assets/f5ef892e-2faf-4521-ac12-0c88caa0baed" width="720">
+  </a>
 </div>
 
 ## Overview
 
 A clean and professional RTSS overlay built for high-visibility performance benchmarking. This fully dynamic overlay balances vital metrics with visual clarity and adapts to any Intel or AMD CPU (up to 24 cores), ensuring correct core ordering for accurate real-time hardware insight during gameplay or stress tests.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/520c8dd5-131c-44fd-a6b3-5f9c9b92f803" style="max-height: 800px; width: auto;">
+  <img src="https://via.placeholder.com/40x1/00000000/00000000?text=+" width="40" height="1">
+  <img src="https://github.com/user-attachments/assets/aa3e1a77-6825-462d-9360-0163a9251f08" style="max-height: 800px; width: auto;">
+</div>
 
 Includes 3 versions:
 
