@@ -16,7 +16,7 @@ A clean and professional RTSS overlay built for high-visibility performance benc
   <img src="https://via.placeholder.com/40x1/00000000/00000000?text=+" width="40" height="1">
   <img src="https://github.com/user-attachments/assets/aa3e1a77-6825-462d-9360-0163a9251f08" style="max-height: 800px; width: auto;">
 </div>
-
+<br><br>
 Includes 3 versions:
 
 ### 🌀 2 and 3-Fan GPU Designs 
@@ -39,7 +39,7 @@ Indicates that all 12VHPWR pins are operating within expected parameters — wit
 
 ## <img src="https://github.com/user-attachments/assets/179036d2-6af9-4d4e-a040-22ef446c96f4" width="20"> Power Alert
 
-This alert is triggered when one or more 12VHPWR pins exceed the maximum rated specification of **9.2 amps per pin**, or drop to **0 amps**, indicating a critical deviation from safe operating conditions that may result in power delivery failure or hardware damage.<br>
+This alert is triggered when one or more 12VHPWR pins exceed the maximum rated specification of **9.2 amps**, or drops to **0 amps**, indicating a critical deviation from safe operating conditions that may result in power delivery failure or hardware damage.<br>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/daa67fbb-4e5a-465c-b924-4bf38ce30b2c" width="100%"><br><br>
 </p>
