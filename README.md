@@ -50,21 +50,21 @@ The Power Detector module is designed for GPUs with 12VHPWR per-pin sensors (suc
 
 <!-- Power Detector Warnings -->
 
-## <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_Normal.png" width="20"> **Normal:** <br>
+## <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_Normal.png" width="20"> **Normal** <br>
 Indicates that all 12VHPWR pins are operating within expected parameters — with amperage levels safely below the maximum rated specification and well-balanced across all pins. No action is required.<br><br>
 
-## <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_Danger.png" width="20"> **Power Alert:** <br>
+## <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_Danger.png" width="20"> **Power Alert** <br>
 This alert is triggered when one or more 12VHPWR pins exceed the maximum rated specification of **9.2 amps**, or drops to **0 amps**, indicating a critical deviation from safe operating conditions that may result in power delivery failure or hardware damage.<br>
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Power_Alert_Preview.png" width="100%"><br><br>
 </p>
 
-## <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_Warning.png" width="20"> **Major Power Imbalance:** <br>
+## <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_Warning.png" width="20"> **Major Power Imbalance** <br>
 This alert activates when a significant current disparity is detected between pins (**≤75% power balance**) which may result in hazardous operating conditions under sustained or peak GPU load.<br>
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Power_Imbalance_Preview.png" width="100%"><br><br>
   
-## <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_NA.png" width="20"> **Sensors Not Available:** <br>
+## <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_NA.png" width="20"> **Sensors Not Available** <br>
 
 This notice is shown when **per-pin amperage telemetry is unavailable**, either because the **user’s GPU does not support individual 12VHPWR pin sensors**, or because **HWiNFO64 is not running or not reporting sensor data**. In this state, the Power Detector is unable to monitor power integrity or detect pin-specific anomalies.
 <p align="center">
