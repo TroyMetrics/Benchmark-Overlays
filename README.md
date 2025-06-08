@@ -164,5 +164,5 @@ This step places the overlay files in the correct RTSS directory.
 ---
 
 ### 7. 🎉 You're All Set!
-Enjoy benchmarking with **TroyMetrics**!  
+Enjoy benchmarking with **TroyMetrics Benchmark Overlays**!  
 If you have any questions or feedback, feel free to open an issue or contact me via GitHub. I’m happy to help.
