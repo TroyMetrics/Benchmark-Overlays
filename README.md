@@ -49,13 +49,6 @@ This alert is triggered when one or more 12VHPWR pins exceed the maximum rated s
 This alert activates when a significant current disparity is detected between pins (**≤75% power balance**) which may result in hazardous operating conditions under sustained or peak GPU load.<br>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/576eaef5-6b23-4abb-a564-92408089ab1b" width="100%"><br><br>
-
-## <img src="https://github.com/user-attachments/assets/6475dda5-6371-435d-9249-acd530e47ce5" width="20"> Power Imbalance
-
-This warning indicates a moderate deviation in current between pins, signaling potential strain or emerging imbalance in power delivery that should be monitored to maintain safe 12VHPWR compliance.<br>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/bec57c2e-f822-469b-9cdf-721af80f07d1" width="100%"><br><br>
-  </p>
   
 ## <img src="https://github.com/user-attachments/assets/2df78461-22ad-4623-ae51-f9eb5ec6d1d3" width="20"> Sensors Not Available<br>
 
