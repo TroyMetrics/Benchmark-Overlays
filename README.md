@@ -105,7 +105,7 @@ Before setting up the TroyMetrics Benchmark Overlay, make sure the following sof
 
 ---
 
-## Setup Instructions for TroyMetrics Benchmark Overlay
+## Setup Instructions
 
 ### 1. 📦 Extract and Prepare Files
 - Open the downloaded package: **`TroyMetrics Benchmark Overlays`**
