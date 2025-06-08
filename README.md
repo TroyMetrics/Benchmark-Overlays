@@ -7,7 +7,7 @@
   </a>
 </div>
 
-## Overview
+# Overview
 
 A clean and professional RTSS overlay built for high-visibility performance benchmarking. This fully dynamic overlay balances vital metrics with visual clarity and adapts to any Intel or AMD CPU (up to 24 cores), ensuring correct core ordering for accurate real-time hardware insight during gameplay or stress tests.
 
@@ -17,9 +17,12 @@ A clean and professional RTSS overlay built for high-visibility performance benc
   <img src="https://github.com/user-attachments/assets/5836ce24-2c84-4648-804a-7ead1d1fbb02" style="max-height: 800px; width: auto;">
 </div>
 <br><br>
-Includes 3 versions: TroyMetrics Benchmark 3-Fan Power Detector; TroyMetrics Benchmark 2-Fan & TroyMetrics Benchmark 3-Fan
+Includes 3 versions:
+- TroyMetrics Benchmark 3-Fan Power Detector
+- TroyMetrics Benchmark 2-Fan
+- TroyMetrics Benchmark 3-Fan
 
-### Features
+# Features
 
 ## 📊 Adaptive CPU Barchart
 <p align="center">
@@ -27,6 +30,9 @@ Includes 3 versions: TroyMetrics Benchmark 3-Fan Power Detector; TroyMetrics Ben
 </p>
 
 This fully dynamic layout dynamically adjusts for 8 to 24-core CPUs, detecting and displaying only physical cores in properly ordered CPU bar charts. On Intel systems, Performance (P) cores are shown first, followed by Efficiency (E) cores. On AMD, cores are displayed in logical, physical order — providing an accurate and readable view of real CPU utilization during gameplay or stress testing.
+
+## 🧠 System Monitoring
+Includes 1% lows, average, and current FPS metrics, GPU and CPU temperatures, clock speeds, average effective clock speeds, utilization, VRAM usage, system RAM usage and more.
 
 ## ⚡️ Power Detector Module  
 <p align="center">
@@ -37,24 +43,24 @@ The Power Detector module is designed for GPUs with 12VHPWR per-pin sensors (suc
 
 <!-- Power Detector Warnings -->
 
-## <img src="https://github.com/user-attachments/assets/07ff59f3-0c26-4207-b185-7590b36065b2" width="20"> Normal
+### <img src="https://github.com/user-attachments/assets/07ff59f3-0c26-4207-b185-7590b36065b2" width="20"> Normal
 
 Indicates that all 12VHPWR pins are operating within expected parameters — with amperage levels safely below the maximum rated specification and well-balanced across all pins. No action is required.<br>
 
-## <img src="https://github.com/user-attachments/assets/179036d2-6af9-4d4e-a040-22ef446c96f4" width="20"> Power Alert
+### <img src="https://github.com/user-attachments/assets/179036d2-6af9-4d4e-a040-22ef446c96f4" width="20"> Power Alert
 
 This alert is triggered when one or more 12VHPWR pins exceed the maximum rated specification of **9.2 amps**, or drops to **0 amps**, indicating a critical deviation from safe operating conditions that may result in power delivery failure or hardware damage.<br>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/daa67fbb-4e5a-465c-b924-4bf38ce30b2c" width="100%"><br><br>
 </p>
 
-## <img src="https://github.com/user-attachments/assets/b7ef7484-18ce-41db-b825-20abe24c1963" width="20"> Major Power Imbalance
+### <img src="https://github.com/user-attachments/assets/b7ef7484-18ce-41db-b825-20abe24c1963" width="20"> Major Power Imbalance
 
 This alert activates when a significant current disparity is detected between pins (**≤75% power balance**) which may result in hazardous operating conditions under sustained or peak GPU load.<br>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/576eaef5-6b23-4abb-a564-92408089ab1b" width="100%"><br><br>
   
-## <img src="https://github.com/user-attachments/assets/2df78461-22ad-4623-ae51-f9eb5ec6d1d3" width="20"> Sensors Not Available<br>
+### <img src="https://github.com/user-attachments/assets/2df78461-22ad-4623-ae51-f9eb5ec6d1d3" width="20"> Sensors Not Available<br>
 
 This notice is shown when **per-pin amperage telemetry is unavailable**, either because the **user’s GPU does not support individual 12VHPWR pin sensors**, or because **HWiNFO64 is not running or not reporting sensor data**. In this state, the Power Detector is unable to monitor power integrity or detect pin-specific anomalies.
 <p align="center">
