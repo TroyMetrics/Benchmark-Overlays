@@ -70,7 +70,7 @@ This alert activates when a significant current disparity is detected between pi
 This notice is shown when **per-pin amperage telemetry is unavailable**, either because the **user’s GPU does not support individual 12VHPWR pin sensors**, or because **HWiNFO64 is not running or not reporting sensor data**. In this state, the Power Detector is unable to monitor power integrity or detect pin-specific anomalies.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c7246cbb-188f-415d-980b-d56929bdb248" width="100%"><br><br>
-</p><br>
+</p>
 
 # 🛠️ Setup & Installation
 
