@@ -96,7 +96,7 @@ Before setting up the TroyMetrics Benchmark Overlay, make sure the following sof
   - Enable automatic updates
 - **Important Configuration Step:**
   1. Launch HWiNFO64 and click the **`[Sensors]`** button
-  2. Click the **`[Configure Sensors]`** button (cogwheel in bottom-right)
+  2. Click the Cogwheel button in the bottom-right ⚙️ **`"Configure Sensors"`**
   3. In the new window, click **`[Main Settings]`** (bottom-right)
   4. Make sure **`✔ Shared Memory Support`** is enabled
 
