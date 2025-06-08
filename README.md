@@ -20,9 +20,9 @@ A clean and professional RTSS overlay built for high-visibility performance benc
 <br><br>
 
 **Includes 3 versions:**<br>
-- TroyMetrics Benchmark 3-Fan Power Detector<br>
-- TroyMetrics Benchmark 2-Fan<br>
-- TroyMetrics Benchmark 3-Fan<br><br>
+- Benchmark 3-Fan Power Detector<br>
+- Benchmark 2-Fan<br>
+- Benchmark 3-Fan<br><br>
 
 🔍 This overlay was designed for 4K displays at a 300% Zoom level to ensure sharp visuals and flexibility across resolutions. You can resize the entire overlay by adjusting the Zoom slider within RTSS to best fit your screen.
 <div align="center">
