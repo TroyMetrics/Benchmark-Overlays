@@ -7,6 +7,8 @@
   </a>
 </div>
 
+## [⬇️ Download](https://github.com/TroyMetrics/Benchmark-Overlay/releases/latest)
+
 # Overview
 
 A clean and professional RTSS overlay built for high-visibility performance benchmarking. This fully dynamic overlay balances vital metrics with visual clarity and adapts to any Intel or AMD CPU (up to 24 cores), ensuring correct core ordering for accurate real-time hardware insight during gameplay or stress tests.
