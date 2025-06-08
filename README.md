@@ -12,9 +12,9 @@
 A clean and professional RTSS overlay built for high-visibility performance benchmarking. This fully dynamic overlay balances vital metrics with visual clarity and adapts to any Intel or AMD CPU (up to 24 cores), ensuring correct core ordering for accurate real-time hardware insight during gameplay or stress tests.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/520c8dd5-131c-44fd-a6b3-5f9c9b92f803" style="max-height: 800px; width: auto;">
+  <img src="https://github.com/user-attachments/assets/ec3dd46f-e476-4c23-a9e9-54b8837a1f5c" style="max-height: 800px; width: auto;">
   <img src="https://via.placeholder.com/40x1/00000000/00000000?text=+" width="40" height="1">
-  <img src="https://github.com/user-attachments/assets/aa3e1a77-6825-462d-9360-0163a9251f08" style="max-height: 800px; width: auto;">
+  <img src="https://github.com/user-attachments/assets/b1b8c9e2-dddd-4966-8461-c0dc1d751e41" style="max-height: 800px; width: auto;">
 </div>
 <br><br>
 Includes 3 versions:
