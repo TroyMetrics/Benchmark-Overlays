@@ -68,8 +68,101 @@ This alert activates when a significant current disparity is detected between pi
 This notice is shown when **per-pin amperage telemetry is unavailable**, either because the **user’s GPU does not support individual 12VHPWR pin sensors**, or because **HWiNFO64 is not running or not reporting sensor data**. In this state, the Power Detector is unable to monitor power integrity or detect pin-specific anomalies.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c7246cbb-188f-415d-980b-d56929bdb248" width="100%"><br><br>
-</p><br><br>
+</p><br>
 
 # 🛠️ Setup & Installation
 
-## Install Required Font
+## ✅ Prerequisites
+
+Before setting up the TroyMetrics Benchmark Overlay, make sure the following software is installed and properly configured:
+
+---
+
+### 🧰 MSI Afterburner + RivaTuner Statistics Server (RTSS)
+
+- Download the latest version of **MSI Afterburner** from [www.guru3d.com](https://www.guru3d.com/files-details/msi-afterburner-beta-download.html)
+- The installer includes **RivaTuner Statistics Server (RTSS)** — this is required for the overlay to function.
+- During installation, ensure that **✅ RTSS is check-marked**.
+- ⚠️ Always use the version of RTSS that comes **bundled** with MSI Afterburner.  
+  Using mismatched versions may cause issues like the **`[More]` button being greyed out** in Afterburner's properties menu.
+
+---
+
+### 📊 HWiNFO64
+
+- Download the latest version of **HWiNFO64** from [www.hwinfo.com](https://www.hwinfo.com/download/)
+- 🛡️ **Recommended for Power Users:** Consider purchasing the paid version to:
+  - Remove the **12-hour Shared Memory Support time limit**
+  - Enable automatic updates
+- **Important Configuration Step:**
+  1. Launch HWiNFO64 and click the **`[Sensors]`** button
+  2. Click the **`[Configure Sensors]`** button (cogwheel in bottom-right)
+  3. In the new window, click **`[Main Settings]`** (bottom-right)
+  4. Make sure **`✔ Shared Memory Support`** is enabled
+
+> ✅ Shared Memory Support is required for RTSS to read sensor data — especially critical for modules like the **12VHPWR Power Detector** (per-pin amperage monitoring).
+
+---
+
+## Setup Instructions for TroyMetrics Benchmark Overlay
+
+### 1. 📦 Extract and Prepare Files
+- Open the downloaded package: **`TroyMetrics Benchmark Overlays`**
+- In a **new File Explorer window**, navigate to your **`C:\` drive**
+
+### 2. 📁 Copy Overlay Files to RTSS
+- **Drag and drop** (or **copy/paste**) the folder named **`Program Files (x86)`** from the downloaded package directly into your **`C:\` drive**
+- If prompted for admin permission:
+  - ✅ Check **"Do this for all current items"**
+  - ✅ Click **"Continue"**
+
+This step places the overlay files in the correct RTSS directory.
+
+---
+
+### 3. 🔤 Install the Required Font
+- Navigate to:  
+  `C:\Program Files (x86)\RivaTuner Statistics Server\Fonts`
+- Double-click to install: **Adderley Bold.ttf**
+
+> **Font credit:** *Adderley* by gorohovskiy  
+> Licensed under the SIL Open Font License. All rights reserved by the original creator.
+
+---
+
+### 4. ⚙️ Enable OverlayEditor in RTSS
+1. Launch **RivaTuner Statistics Server (RTSS)**  
+2. Click the **`[Setup]`** button  
+3. In the new window, go to the **Plugins** tab:
+   - ✅ Enable **`OverlayEditor.dll`**
+   - ✅ (Optional but recommended) Enable **`HotkeyHandler.dll`**
+     - Highlight **`HotkeyHandler.dll`** & Click **`[Setup]`** at the bottom to assign hotkeys:
+       - **Toggle On-Screen Display**: e.g., `Home`
+       - **Begin/End Recording**: e.g., `Page Up / Page Down`
+
+> ⚠️ If you’ve already assigned hotkeys in **MSI Afterburner**, you can skip this step or unassign them there. Only **one program** should manage OSD hotkeys to avoid conflicts.
+
+---
+
+### 5. 🎛 Load the Overlay in OverlayEditor
+1. With **OverlayEditor.dll** enabled, double-click it or click **`[Setup]`** after high-lighting it 
+2. In the Overlay Editor window:
+   - Go to the **`Layouts`** tab → Click **`Load`**
+   - Select one of the **`TroyMetrics Benchmark Overlays`** → Click **`Open`**
+
+---
+
+### 6. 🧠 Apply Master Settings (Important)
+- Back in the **Layouts** tab → Click **`Edit`**
+- In the **Overlay Properties** window:
+  - Click **`[Master Settings]`**
+  - Click **`Yes`** when prompted
+  - Click **`OK`** to finalize
+
+✅ Your overlay is now fully active and ready to use!
+
+---
+
+### 7. 🎉 You're All Set!
+Enjoy benchmarking with **TroyMetrics**!  
+If you have any questions or feedback, feel free to [open an issue](#) or contact me via GitHub. I’m happy to help.
