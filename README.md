@@ -7,7 +7,7 @@
   </a>
 </div>
 
-## [⬇️ Download](https://github.com/TroyMetrics/Benchmark-Overlay/releases/latest)
+<h2 align="center"><a href="https://github.com/TroyMetrics/Benchmark-Overlay/releases/latest">⬇️ Download</a></h2>
 
 # Overview
 
