@@ -15,7 +15,6 @@ A clean and professional RTSS overlay built for high-visibility performance benc
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/ec3dd46f-e476-4c23-a9e9-54b8837a1f5c" style="max-height: 800px; width: auto;">
-  <img src="https://via.placeholder.com/40x1/00000000/00000000?text=+" width="40" height="1">
   <img src="https://github.com/user-attachments/assets/5836ce24-2c84-4648-804a-7ead1d1fbb02" style="max-height: 800px; width: auto;">
 </div>
 <br><br>
