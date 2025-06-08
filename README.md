@@ -17,14 +17,18 @@ A clean and professional RTSS overlay built for high-visibility performance benc
   <img src="https://github.com/user-attachments/assets/5836ce24-2c84-4648-804a-7ead1d1fbb02" style="max-height: 800px; width: auto;">
 </div>
 <br><br>
-Includes 3 versions:
+Includes 3 versions: TroyMetrics Benchmark 3-Fan Power Detector; TroyMetrics Benchmark 2-Fan & TroyMetrics Benchmark 3-Fan
 
-### 🌀 2 and 3-Fan GPU Designs 
+### Features
+
+## 📊 Adaptive CPU Barchart
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5c7e5766-204d-49f4-b3c3-2b4b5c3c4489" width="50%"><img src="https://github.com/user-attachments/assets/bc181ff0-c0d8-47ec-aee4-763d81b0ef16" width="50%">
+  <img src="https://github.com/user-attachments/assets/8b294ad3-d9fd-4407-aea5-0a7353c15dbf" width="50%">
 </p>
 
-### ⚡️ Power Detector Module  
+This fully dynamic layout dynamically adjusts for 8 to 24-core CPUs, detecting and displaying only physical cores in properly ordered CPU bar charts. On Intel systems, Performance (P) cores are shown first, followed by Efficiency (E) cores. On AMD, cores are displayed in logical, physical order — providing an accurate and readable view of real CPU utilization during gameplay or stress testing.
+
+## ⚡️ Power Detector Module  
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c561f0b4-f033-4f23-9040-41aeb8e561e8" width="100%">
 </p>
@@ -59,5 +63,5 @@ This notice is shown when **per-pin amperage telemetry is unavailable**, either 
 
 
 
-<!-- CPU Core Barcharts Gif -->
-![Image](https://github.com/user-attachments/assets/8b294ad3-d9fd-4407-aea5-0a7353c15dbf)
+<!-- Getting Started/Setup Gif -->
+
