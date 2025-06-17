@@ -24,7 +24,7 @@ A clean and professional RTSS overlay built for high-visibility performance benc
 - Benchmark 2-Fan<br>
 - Benchmark 3-Fan<br><br>
 
-🔍 This overlay was designed for 4K displays at a 300% Zoom level to ensure sharp visuals and flexibility across resolutions. You can resize the entire overlay by adjusting the Zoom slider within RTSS to best fit your screen.
+🔍 This overlay was designed for 4K displays at a 300% Zoom level to ensure sharp visuals. You can resize the entire overlay by adjusting the Zoom slider within RTSS to best fit your screen.
 <div align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/RTSS_Zoom_Example.gif" style="max-height: 800px; width: auto;">
 </div>
@@ -60,7 +60,7 @@ This alert is triggered when one or more 12VHPWR pins exceed the maximum rated s
 </p>
 
 ## <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_Warning.png" width="20"> **Major Power Imbalance** <br>
-This alert activates when a significant current disparity is detected between pins (**≤75% power balance**) which may result in hazardous operating conditions under sustained or peak GPU load.<br>
+This alert activates when a significant current disparity is detected between pins (**≤85% power balance**) which may result in hazardous operating conditions under sustained or peak GPU load.<br>
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Power_Imbalance_Preview.png" width="100%"><br><br>
   
