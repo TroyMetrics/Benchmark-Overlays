@@ -19,15 +19,7 @@ A clean and professional RTSS overlay built for high-visibility performance benc
 </div>
 <br><br>
 
-**Includes 3 versions:**<br>
-- Benchmark 3-Fan Power Detector<br>
-- Benchmark 2-Fan<br>
-- Benchmark 3-Fan<br><br>
-
-🔍 This overlay was designed for 4K displays at a 300% Zoom level to ensure sharp visuals. You can resize the entire overlay by adjusting the Zoom slider within RTSS to best fit your screen.
-<div align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/RTSS_Zoom_Example.gif" style="max-height: 800px; width: auto;">
-</div>
+**Includes 3 Versions:** Benchmark 3-Fan Power Detector, Benchmark 2-Fan and Benchmark 3-Fan
 
 # Features
 
@@ -70,6 +62,11 @@ This notice is shown when **per-pin amperage telemetry is unavailable**, either 
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Sensors_NA.gif" width="100%"><br><br>
 </p>
+
+🔍 This overlay was designed for 4K displays at a 300% Zoom level to ensure sharp visuals. You can resize the entire overlay by adjusting the Zoom slider within RTSS to best fit your screen.
+<div align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/RTSS_Zoom_Example.gif" style="max-height: 800px; width: auto;">
+</div>
 
 # 🛠️ Setup & Installation
 
