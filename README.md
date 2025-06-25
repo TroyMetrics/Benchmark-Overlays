@@ -2,7 +2,7 @@
 <p align="center">RTSS / RivaTuner Overlay by TroyMetrics 👻</p>
 
 <div align="center">
-  <a href="https://youtu.be/WNqMxR4YaeU">
+  <a href="https://youtu.be/O6pbmgcFB5U?si=fzjMaL5J3nlO0qs9">
     <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Video_Thumbnail.png" width="850">
   </a>
 </div>
