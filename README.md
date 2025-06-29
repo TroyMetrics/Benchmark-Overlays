@@ -6,8 +6,7 @@
     <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Video_Thumbnail.png" width="850">
   </a>
 </div>
-
-<h2 align="center"><a href="https://github.com/TroyMetrics/Benchmark-Overlay/releases/latest">⬇️ Download</a></h2>
+<h1 align="center"><a href="https://github.com/TroyMetrics/Benchmark-Overlay/releases/latest">⬇️ Download</a></h2>
 
 # Overview
 
@@ -62,11 +61,6 @@ This notice is shown when **per-pin amperage telemetry is unavailable**, either 
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Sensors_NA.gif" width="100%"><br><br>
 </p>
-
-🔍 This overlay was designed for 4K displays at a 300% Zoom level to ensure sharp visuals. You can resize the entire overlay by adjusting the Zoom slider within RTSS to best fit your screen.
-<div align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/RTSS_Zoom_Example.gif" style="max-height: 800px; width: auto;">
-</div>
 
 # 🛠️ Setup & Installation
 
@@ -156,6 +150,16 @@ This step places the overlay files in the correct RTSS directory.
   - Click **`[Master Settings]`**
   - Click **`Yes`** when prompted
   - Click **`OK`** to finalize
+
+---
+
+### 7. 🧠 Adjust Zoom Slider (if necessary)
+🔍 This overlay was designed for 4K displays at a 300% Zoom level to ensure sharp visuals. You can resize the entire overlay by adjusting the Zoom slider within RTSS to best fit your screen.
+<div align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/RTSS_Zoom_Example.gif" style="max-height: 800px; width: auto;">
+</div>
+
+---
 
 ✅ Your overlay is now fully active and ready to use!
 
