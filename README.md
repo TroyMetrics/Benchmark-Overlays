@@ -18,7 +18,7 @@ A clean and professional RTSS overlay built for high-visibility performance benc
 </div>
 <br><br>
 
-**Includes 3 Versions:** Benchmark 3-Fan Power Detector, Benchmark 2-Fan and Benchmark 3-Fan
+**Now includes 4 Presets:** Benchmark 3-Fan Power Detector, Benchmark 2-Fan, Benchmark 3-Fan and 12VHPWR Power Detector (Power Detector Only)
 
 # Features
 
