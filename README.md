@@ -157,8 +157,6 @@ This step places the overlay files in the correct RTSS directory.
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/RTSS_Zoom_Example.gif" style="max-height: 800px; width: auto;">
 </div>
 
----
-
 ✅ Your overlay is now fully active and ready to use!
 
 ---
