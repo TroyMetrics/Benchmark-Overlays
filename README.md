@@ -149,6 +149,8 @@ This step places the overlay files in the correct RTSS directory.
   - Click **`Yes`** when prompted
   - Click **`OK`** to finalize
 
+UPDATE: Since RTSS Beta 7.3.2, you can now use **`Ctrl + Shift + M`** to apply the overlay’s master layout settings.
+
 ---
 
 ### 7. 🧠 Adjust Zoom Slider (if necessary)
