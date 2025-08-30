@@ -143,13 +143,12 @@ This step places the overlay files in the correct RTSS directory.
 ---
 
 ### 6. 🧠 Apply Master Settings (Important)
+- Since **RTSS Beta 7.3.2**, you can now use **`Ctrl + Shift + M`** to apply the overlay’s master layout settings. Otherwise, follow the steps below for manual application.
 - Back in the **Layouts** tab → Click **`Edit`**
 - In the **Overlay Properties** window:
   - Click **`[Master Settings]`**
   - Click **`Yes`** when prompted
   - Click **`OK`** to finalize
-
-UPDATE: Since RTSS Beta 7.3.2, you can now use **`Ctrl + Shift + M`** to apply the overlay’s master layout settings.
 
 ---
 
