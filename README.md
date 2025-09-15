@@ -18,7 +18,7 @@ A clean and professional RTSS overlay built for high-visibility performance benc
 </div>
 <br><br>
 
-**Now includes 4 Presets:** Benchmark 3-Fan Power Detector, Benchmark 2-Fan, Benchmark 3-Fan and 12VHPWR Power Detector (Power Detector Only)
+**Now includes 7 Presets:** Benchmark 3-Fan Power Detector, Benchmark 2-Fan, Benchmark 3-Fan, 12VHPWR Power Detector (Power Detector Only), and 3 Presets with Latency Modules!
 
 # Features
 
@@ -31,6 +31,19 @@ This fully dynamic layout automatically adjusts for 8 to 24-core CPUs, detecting
 
 ## 🧠 System Monitoring
 Includes 1% lows, average, and current FPS metrics, GPU and CPU temperatures, clock speeds, average effective clock speeds, utilization, VRAM usage, system RAM usage and more.
+
+## 🕹️ Latency Module (Render | Sim-to-Render Latency)
+Added below the Frame Time Graph, now showing **Render Latency** and **Sim-to-Render Latency** in milliseconds.
+  • Dynamic values are centered for cleaner aesthetics given the layout while the titles (LAT and MS) remain static for less distraction. 
+  • Metrics are capped at **999 ms** to prevent huge number strings from shooting across the screen during certain scenarios (e.g. when Alt-Tabbing in and out of a game).
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Latency_Module.gif">
+</p>
+
+## 🔺Frame Generation Indicator
+  • A subtle blinking icon now appears next to **FPS** when Frame Gen is active.  
+  • While active, the Frame Time Graph switches to the updated mode for accurate pacing display.  
+> Note: Frametime metrics with Frame Gen may lag by ~3 seconds due to PresentMon limitations.
 
 # ⚡️ Power Detector Module  
 <p align="center">
