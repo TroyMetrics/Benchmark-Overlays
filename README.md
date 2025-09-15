@@ -165,7 +165,7 @@ This step places the overlay files in the correct RTSS directory.
 
 ---
 
-### 7. 🧠 Adjust Zoom Slider (if necessary)
+### 7. 🔍 Adjust Zoom Slider (if necessary)
 🔍 This overlay was designed for 4K displays at a 300% Zoom level to ensure sharp visuals. You can resize the entire overlay by adjusting the Zoom slider within RTSS to best fit your screen.
 <div align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/RTSS_Zoom_Example.gif" style="max-height: 800px; width: auto;">
