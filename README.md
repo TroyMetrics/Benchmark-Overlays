@@ -34,8 +34,8 @@ Includes 1% lows, average, and current FPS metrics, GPU and CPU temperatures, cl
 
 ## 🕹️ Latency Module (Render | Sim-to-Render Latency)
 Added below the Frame Time Graph, now showing **Render Latency** and **Sim-to-Render Latency** in milliseconds.
-  • Dynamic values are centered for cleaner aesthetics given the layout while the titles (LAT and MS) remain static for less distraction. 
-  • Metrics are capped at **999 ms** to prevent huge number strings from shooting across the screen during certain scenarios (e.g. when Alt-Tabbing in and out of a game).
+- Dynamic values are centered for cleaner aesthetics given the layout while the titles (LAT and MS) remain static for less distraction. 
+- Metrics are capped at **999 ms** to prevent huge number strings from shooting across the screen during certain scenarios (e.g. when Alt-Tabbing in and out of a game).
 <p align="center">
   <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Latency_Module.gif">
 </p>
