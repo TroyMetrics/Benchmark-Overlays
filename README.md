@@ -40,7 +40,7 @@ Added below the Frame Time Graph, now showing **Render Latency** and **Sim-to-Re
   <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Latency_Module.gif">
 </p>
 
-## 🔺Frame Generation Indicator
+## 🔺Frame Gen Indicator
   • A subtle blinking icon now appears next to **FPS** when Frame Gen is active.  
   • While active, the Frame Time Graph switches to the updated mode for accurate pacing display.  
 > Note: Frametime metrics with Frame Gen may lag by ~3 seconds due to PresentMon limitations.
