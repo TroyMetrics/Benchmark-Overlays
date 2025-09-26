@@ -83,6 +83,10 @@ This notice is shown when **per-pin amperage telemetry is unavailable**, either 
   </a>
 </div>
 
+
+
+New color and remix options will keep rolling out over time, and customization is now easier than ever in the latest release. Got your own design or remix? Share it in the [Guru3D Forum](https://forums.guru3d.com/threads/benchmark-overlays-by-troymetrics-power-detector-module.456668/) — the best ones may even get featured in the official download! 🔥
+
 # 🛠️ Setup & Installation
 
 ## ✅ Prerequisites
