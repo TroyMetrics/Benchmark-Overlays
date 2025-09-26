@@ -75,6 +75,14 @@ This notice is shown when **per-pin amperage telemetry is unavailable**, either 
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Sensors_NA.gif" width="100%"><br><br>
 </p>
 
+# 🌈 New Color Options Available!
+
+<div align="center">
+  <a href="https://youtu.be/v7VLgzUj9RE">
+    <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Video_Github.jpg" width="850">
+  </a>
+</div>
+
 # 🛠️ Setup & Installation
 
 ## ✅ Prerequisites
