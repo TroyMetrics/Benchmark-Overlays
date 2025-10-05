@@ -20,6 +20,12 @@ A clean and professional RTSS overlay built for high-visibility performance benc
 
 **Now includes 13 Presets:** Benchmark 3-Fan Power Detector, Benchmark 2-Fan, Benchmark 3-Fan, 12VHPWR Power Detector (Power Detector Only), 3 Presets with Latency Modules, and [7 Color Options](https://github.com/TroyMetrics/Benchmark-Overlays#-new-color-options-available)
 
+<h1 align="center" style="border-bottom:none; margin-bottom:0;">
+  <a href="https://github.com/TroyMetrics/Benchmark-Overlays#%EF%B8%8F-setup--installation" style="text-decoration:none;">
+    🛠️ Go to Setup & Installation
+  </a>
+</h1>
+
 # Features
 
 ## 📊 Adaptive CPU Barchart
@@ -227,9 +233,7 @@ To maintain the full color range without breaking the spectrum cycle, follow thi
 
 You can experiment with other values as long as the **division remains consistent** with the total loop time.
 
-### ⚠️ Note
-A “true” rainbow gradient (like a continuous static gradient texture) is not currently possible in RTSS unless it’s rendered as a static image.  
-This preset instead uses a **color-shifting animation** to simulate a rainbow-like cycle.
+>⚠️ Note: To the best of my knowledge, a true animated rainbow gradient effect is not currently possible in RTSS unless used as a static image. This preset is a **color-shifting animation**, not a gradient hack.
 
 ### 🧭 Example Setup
 Below is an example of the **Rainbow Speed Sensor** configured in RTSS OverlayEditor:
