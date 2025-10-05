@@ -255,7 +255,65 @@ Below is an example of the **Rainbow Speed Sensor** configured in RTSS OverlayEd
 
 ## 👤 Setting User-defined Thresholds
 
+The Overlay includes several **animated gauge and indicator elements** that respond dynamically to system performance metrics such as **CPU/GPU clock speeds**, **temperatures**, and **utilization**.  
 
+While the default configuration is tuned for modern high-performance hardware, every threshold can be customized to match your system’s specifications and preferred visuals.
+
+---
+
+⚙️ GPU & CPU Clock **Speed Gauge** Threshold
+
+Each **speed gauge icon** consists of three layers:  
+**Needle**, **Body**, and **Fill** — all visible in the **Layers Edit list** <kbd>Ctrl + Shift + L</kbd> or by navigating to **Layers → Edit list** via the menus as seen here,
+
+<p align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/User_Defined_Thresholds_Layer_Properties.jpg" width="75%">
+</p>
+
+By default, the **GPU Speed Gauge** is configured for a range of **0 – 3000 MHz**, suitable for GPUs such as the RTX 5090.  
+If you’re using hardware with lower maximum clock speeds (for example, an RTX 3060 Ti with a 1665 MHz boost clock), you can adjust the range as follows:
+
+1. Select the **Needle** or **Fill** layer.  
+2. Open **Embedded animated image settings**.  
+3. Locate **Sprite animation maximum, in data source units**.  
+4. Change this value from **3000** to your GPU’s max frequency (e.g., **1665 MHz**).
+
+This example shows how to set a GPU speed gauge threshold of 0 to 3000 MHz (this is the default value):
+<p align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/User_Defined_Thresholds_GPU_Speed_Gauge.jpg" width="75%">
+</p>
+
+This example shows how to set a CPU speed gauge threshold of 0 to 6 GHz (this is the default value):
+<p align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/User_Defined_Thresholds_CPU_Speed_Gauge.jpg" width="75%">
+</p>
+
+> 📝 Note: This step must be done for both the needle, and the fill layers so that they match.
+
+---
+
+🔥 **High Temperature Indicator (Fire Icon)** Threshhold
+
+The **animated fire icon** visually warns when component temperatures exceed a defined limit.  
+By default, this threshold is set to **≥ 83 °C** for both CPU and GPU, controlled via the **Dynamic Color** options.
+
+<p align="center">
+  <img src="[(Insert example image of dynamic color options configured for ≥ 100 °C)](https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/User_Defined_Thresholds_High_Temp_Fire_Icon.jpg" width="75%">
+</p>
+
+Inside the **Dynamic color** configuration:
+- **0 – 100 °C:** Layer color is set to **0% opacity black** (invisible).  
+- **≥ 100 °C:** Layer color transitions to **100% opacity white**, activating the animated fire icon.
+
+To customize:
+1. Select the **Fire Icon** layer.  
+2. Open **Dynamic color** settings.  
+3. Adjust the threshold value to your preferred activation point (e.g., 90 °C, 95 °C, or 100 °C).
+
+This example demonstrates how the Dynamic Color threshold is set to make the fire icon visible when GPU temperature ≥ 100 °C.
+<p align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/User_Defined_Thresholds_High_Temp_Fire_Icon.jpg" width="75%">
+</p>
 
 ### 🎉 You're All Set!
 Enjoy benchmarking with **TroyMetrics Benchmark Overlays**!  
