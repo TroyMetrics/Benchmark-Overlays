@@ -44,7 +44,7 @@ Added below the Frame Time Graph, now showing **Render Latency** and **Sim-to-Re
   • While active, the Frame Time Graph switches to the updated mode for accurate pacing display.  
 > Note: Frametime metrics with Frame Gen may lag by ~3 seconds due to PresentMon limitations.
 
-## ⚡️ Advanced Power Detector Module (for supported GPUs)
+## ⚡️ Power Detector Module (for supported GPUs)
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Preview.gif" width="100%">
 </p>
