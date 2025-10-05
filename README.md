@@ -318,12 +318,9 @@ This example shows how to set a CPU speed gauge threshold of 0 to 6 GHz (this is
 
 ## 🔥 **High Temperature Indicator (Fire Icon)** Threshhold
 
-The **animated fire icon** visually warns when component temperatures exceed a defined limit.  
-By default, this threshold is set to **≥ 83 °C** for both CPU and GPU, controlled via the **Dynamic Color** options.
+The **animated fire icon** visually warns when component temperatures exceed a defined limit.
 
-<p align="center">
-  <img src="[(Insert example image of dynamic color options configured for ≥ 100 °C)](https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/User_Defined_Thresholds_High_Temp_Fire_Icon.jpg" width="75%">
-</p>
+By default, this threshold is set to **≥ 83 °C** for both CPU and GPU, controlled via the **Dynamic Color** options.
 
 Inside the **Dynamic color** configuration:
 - **0 – 100 °C:** Layer color is set to **0% opacity black** (invisible).  
