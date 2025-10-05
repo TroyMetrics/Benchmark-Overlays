@@ -285,8 +285,6 @@ The Overlay includes several **animated gauge and indicator elements** that resp
 
 While the default configuration is tuned for modern high-performance hardware, every threshold can be customized to match your system’s specifications and preferred visuals.
 
----
-
 ## ⚙️ GPU & CPU Clock **Speed Gauge** Threshold
 
 Each **speed gauge icon** consists of three layers:  
