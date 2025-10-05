@@ -248,7 +248,8 @@ You can experiment with other values as long as the **division remains consisten
 >⚠️ Note: To the best of my knowledge, a true animated rainbow gradient effect is not currently possible in RTSS unless used as a static image. This preset is a **color-shifting animation**, not a gradient hack.
 
 **🧭 Example Setup**
-Below is an example of the **Rainbow Speed Sensor** configured in RTSS OverlayEditor:
+
+Below is an example of the **Rainbow Speed Sensor** configured in RTSS OverlayEditor for a 30 second loop:
 
 ![Rainbow Speed Sensor](https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Rainbow_Speed_Sensor.jpg)
 
