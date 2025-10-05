@@ -75,7 +75,7 @@ New color customization options have expanded significantly since [v1.9](https:/
 
 Available color presets now include: **Ghostly Green & White (original)**, **Pure Green**, **Electric Blue**, **Bright Yellow**, **Hot Pink**, **Pure Orange**, **Ghostly Green**, and the new **Rainbow preset** introduced in [v1.10](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.10).  
 
-➡️ See also: **[How to adjust the rainbow animation speed](#-optional-setup--rainbow-speed-sensor)**
+> ➡️ See also: **[How to adjust the rainbow animation speed](#-optional-setup--rainbow-speed-sensor)**
 
 With the layer restructure and naming improvements introduced in [v1.8](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.8), user customization is now simpler and more organized than ever.  
 
