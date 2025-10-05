@@ -6,7 +6,6 @@
     <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Video_Thumbnail.png" width="850">
   </a>
 </div>
-<h1 align="center"><a href="https://github.com/TroyMetrics/Benchmark-Overlay/releases/latest">⬇️ Download</a></h2>
 
 # Overview
 
