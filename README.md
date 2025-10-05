@@ -119,51 +119,49 @@ This notice is shown when **per-pin amperage telemetry is unavailable**, either 
 
 Before setting up the TroyMetrics Benchmark Overlay, make sure the following software is installed and properly configured:
 
----
+**✅ MSI Afterburner + RivaTuner Statistics Server (RTSS)**
 
-### ✅ MSI Afterburner + RivaTuner Statistics Server (RTSS)
-
-- Download the latest BETA versions of **MSI Afterburner & RTSS** from [www.guru3d.com](https://www.guru3d.com/files-details/msi-afterburner-beta-download.html)
+🔽 Download the latest BETA versions of **MSI Afterburner & RTSS** from [www.guru3d.com](https://www.guru3d.com/files-details/msi-afterburner-beta-download.html)
 > 📝 Note: The latest beta builds are often shared exclusively on the official Guru3D forums by the developer, Unwinder.
 - The MSI Afterburner installer comes bundled with **RivaTuner Statistics Server (RTSS)** — this is required for the overlay to function.
 - During installation, ensure that **✅ RTSS** is **check-marked.**
 
 ---
 
-### ✅ HWiNFO64
+**✅ HWiNFO64**
 
-- Download the latest version of **HWiNFO64** from [www.hwinfo.com](https://www.hwinfo.com/download/)
+🔽 Download the latest version of **HWiNFO64** from [www.hwinfo.com](https://www.hwinfo.com/download/)
 > **🛡️ Recommended for Power Users:** Consider purchasing the paid version to remove the **12-hour Shared Memory Support time limit** and **enable automatic updates.**
 
-**Important Configuration Steps:**
-  1. Launch HWiNFO64 (Sensors Only) and click the **`[Sensors]`** button
-  2. Click the Cogwheel button in the bottom-right ⚙️ **`"Configure Sensors"`**
-  3. In the new window, click **`[Main Settings]`** (bottom-right)
-  4. Make sure **`✔ Shared Memory Support`** is enabled
+**⚙️ Important Configuration Steps:**
+1. Launch HWiNFO64 (Sensors Only) and click the **`[Sensors]`** button
+2. Click the Cogwheel button in the bottom-right ⚙️ **`"Configure Sensors"`**
+3. In the new window, click **`[Main Settings]`** (bottom-right)
+4. Make sure **`✔ Shared Memory Support`** is enabled
 
 > ✅ Shared Memory Support is required for RTSS to read sensor data from HWiNFO — especially critical for modules like the **12VHPWR Power Detector** (per-pin amperage monitoring).
 
 ---
 
-## Setup Instructions
+## 🛠️ Setup Instructions
 
 > ⚠️ **Important:** RTSS must remain installed on the **C:\\ drive**. Installing it elsewhere (e.g. D:\\) can cause missing or broken overlay icons due to location-dependent resources. See [Issue #7](https://github.com/TroyMetrics/Benchmark-Overlays/issues/7) for details and a potential work around.
 
-### 1. 📦 Extract and Prepare Files
+**1. 📦 Extract and Prepare Files**
 - Open the downloaded package: **`TroyMetrics Benchmark Overlays`**
 - In a **new File Explorer window**, navigate to your **`C:\` drive**
 
-### 2. 📁 Copy Overlay Files to RTSS
+**2. 📁 Copy Overlay Files to RTSS**
 - **Drag and drop** (or **copy/paste**) the folder named **`Program Files (x86)`** from the downloaded package directly into your **`C:\` drive**
 - If prompted for admin permission:
   - ✅ Check **"Do this for all current items"**
   - ✅ Click **"Continue"**
 
-This step places the overlay files in the correct RTSS directory.
+> This step places the overlay files in the correct RTSS directory.
 
 ---
 
-### 3. 🔤 Install the Required Font
+**3. 🔤 Install the Required Font**
 - Navigate to:  
   `C:\Program Files (x86)\RivaTuner Statistics Server\Fonts`
 - Double-click to install: **Adderley Bold.ttf**
@@ -173,7 +171,7 @@ This step places the overlay files in the correct RTSS directory.
 
 ---
 
-### 4. ⚙️ Enable OverlayEditor in RTSS
+**4. ⚙️ Enable OverlayEditor in RTSS**
 1. Launch **RivaTuner Statistics Server (RTSS)**  
 2. Click the **`[Setup]`** button  
 3. In the new window, go to the **Plugins** tab:
@@ -187,7 +185,7 @@ This step places the overlay files in the correct RTSS directory.
 
 ---
 
-### 5. 🎛 Load the Overlay in OverlayEditor
+**5. 🎛 Load the Overlay in OverlayEditor**
 1. With **OverlayEditor.dll** enabled, double-click it or click **`[Setup]`** after high-lighting it 
 2. In the Overlay Editor window:
    - Go to the **`Layouts`** tab → Click **`Load`**
@@ -195,7 +193,7 @@ This step places the overlay files in the correct RTSS directory.
 
 ---
 
-### 6. 🧠 Apply Master Settings (Important)
+**6. 🧠 Apply Master Settings (Important)**
 - Since **RTSS Beta 7.3.2**, you can now use **`Ctrl + Shift + M`** to apply the overlay’s master layout settings. Otherwise, follow the steps below for manual application.
 - Back in the **Layouts** tab → Click **`Edit`**
 - In the **Overlay Properties** window:
@@ -205,7 +203,7 @@ This step places the overlay files in the correct RTSS directory.
 
 ---
 
-### 7. 🔍 Adjust Zoom Slider (if necessary)
+**7. 🔍 Adjust Zoom Slider (if necessary)**
 🔍 This overlay was designed for 4K displays at a 300% Zoom level to ensure sharp visuals. You can resize the entire overlay by adjusting the Zoom slider within RTSS to best fit your screen.
 <div align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/RTSS_Zoom_Example.gif" style="max-height: 800px; width: auto;">
@@ -223,7 +221,7 @@ This section explains how to adjust the **rainbow animation speed** using a simp
 
 ![Rainbow GPU Preview](https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Rainbow_GPU_Preview.gif)
 
-### ✨ Overview
+**✨ Overview**
 * The animation speed is driven by the **data source sensor `R1`**.  
 * By default, `R1` is configured as a **30-second color loop**, using this formula:
 
@@ -231,7 +229,7 @@ This section explains how to adjust the **rainbow animation speed** using a simp
   (x%30000)/300
   ```
 
-### ⚙️ Adjusting the Speed
+**⚙️ Adjusting the Speed**
 If you’d like to make the rainbow cycle faster or slower, simply modify the loop duration in the formula.  
 To maintain the full color range without breaking the spectrum cycle, follow this pattern:
 
@@ -247,7 +245,7 @@ You can experiment with other values as long as the **division remains consisten
 
 >⚠️ Note: To the best of my knowledge, a true animated rainbow gradient effect is not currently possible in RTSS unless used as a static image. This preset is a **color-shifting animation**, not a gradient hack.
 
-### 🧭 Example Setup
+**🧭 Example Setup**
 Below is an example of the **Rainbow Speed Sensor** configured in RTSS OverlayEditor:
 
 ![Rainbow Speed Sensor](https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Rainbow_Speed_Sensor.jpg)
