@@ -18,7 +18,7 @@ A clean and professional RTSS overlay built for high-visibility performance benc
 </div>
 <br><br>
 
-**Now includes 7 Presets:** Benchmark 3-Fan Power Detector, Benchmark 2-Fan, Benchmark 3-Fan, 12VHPWR Power Detector (Power Detector Only), and 3 Presets with Latency Modules!
+**Now includes 13 Presets:** Benchmark 3-Fan Power Detector, Benchmark 2-Fan, Benchmark 3-Fan, 12VHPWR Power Detector (Power Detector Only), 3 Presets with Latency Modules, and [7 Color Options](https://github.com/TroyMetrics/Benchmark-Overlays#-new-color-options-available)
 
 # Features
 
