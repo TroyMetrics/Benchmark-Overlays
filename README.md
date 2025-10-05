@@ -121,31 +121,33 @@ Before setting up the TroyMetrics Benchmark Overlay, make sure the following sof
 
 ---
 
-### 🧰 MSI Afterburner + RivaTuner Statistics Server (RTSS)
+### ✅ MSI Afterburner + RivaTuner Statistics Server (RTSS)
 
 - Download the latest BETA versions of **MSI Afterburner & RTSS** from [www.guru3d.com](https://www.guru3d.com/files-details/msi-afterburner-beta-download.html)
-- The installer includes **RivaTuner Statistics Server (RTSS)** — this is required for the overlay to function.
-- During installation, ensure that **✅ RTSS is check-marked**.
+> 📝 Note: The latest beta builds are often shared exclusively on the official Guru3D forums by the developer, Unwinder.
+- The MSI Afterburner installer comes bundled with **RivaTuner Statistics Server (RTSS)** — this is required for the overlay to function.
+- During installation, ensure that **✅ RTSS** is **check-marked.**
 
 ---
 
-### 📊 HWiNFO64
+### ✅ HWiNFO64
 
 - Download the latest version of **HWiNFO64** from [www.hwinfo.com](https://www.hwinfo.com/download/)
-- 🛡️ **Recommended for Power Users:** Consider purchasing the paid version to:
-  - Remove the **12-hour Shared Memory Support time limit**
-  - Enable automatic updates
-- **Important Configuration Step:**
-  1. Launch HWiNFO64 and click the **`[Sensors]`** button
+> **🛡️ Recommended for Power Users:** Consider purchasing the paid version to remove the **12-hour Shared Memory Support time limit** and **enable automatic updates.**
+
+**Important Configuration Steps:**
+  1. Launch HWiNFO64 (Sensors Only) and click the **`[Sensors]`** button
   2. Click the Cogwheel button in the bottom-right ⚙️ **`"Configure Sensors"`**
   3. In the new window, click **`[Main Settings]`** (bottom-right)
   4. Make sure **`✔ Shared Memory Support`** is enabled
 
-> ✅ Shared Memory Support is required for RTSS to read sensor data — especially critical for modules like the **12VHPWR Power Detector** (per-pin amperage monitoring).
+> ✅ Shared Memory Support is required for RTSS to read sensor data from HWiNFO — especially critical for modules like the **12VHPWR Power Detector** (per-pin amperage monitoring).
 
 ---
 
 ## Setup Instructions
+
+> ⚠️ **Important:** RTSS must remain installed on the **C:\\ drive**. Installing it elsewhere (e.g. D:\\) can cause missing or broken overlay icons due to location-dependent resources. See [Issue #7](https://github.com/TroyMetrics/Benchmark-Overlays/issues/7) for details and a potential work around.
 
 ### 1. 📦 Extract and Prepare Files
 - Open the downloaded package: **`TroyMetrics Benchmark Overlays`**
