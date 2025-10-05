@@ -91,7 +91,7 @@ The Power Detector module is designed for GPUs with 12VHPWR per-pin sensors (suc
 
 <!-- Power Detector Warnings -->
 
-## **✅ Normal State**
+## **🟢 Normal State**
 
 <p align="left">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_Normal.png">
@@ -101,7 +101,7 @@ This status icon indicates that all 12VHPWR pins are operating within expected p
 
 ---
 
-## **⚠️ Warning State (Power Imbalance)**
+## **🟡 Warning State (Power Imbalance)**
 
 <p align="left">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_Warning.png">
@@ -113,7 +113,7 @@ This status icon and alert activates when a significant current disparity is det
 
 ---
 
-## **💀 Danger State (Power Alert)**
+## **🔴 Danger State (Power Alert)**
 
 <p align="left">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_Danger.png">
