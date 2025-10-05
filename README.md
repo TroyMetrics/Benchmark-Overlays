@@ -261,7 +261,7 @@ While the default configuration is tuned for modern high-performance hardware, e
 
 ---
 
-⚙️ GPU & CPU Clock **Speed Gauge** Threshold
+## ⚙️ GPU & CPU Clock **Speed Gauge** Threshold
 
 Each **speed gauge icon** consists of three layers:  
 **Needle**, **Body**, and **Fill** — all visible in the **Layers Edit list** <kbd>Ctrl + Shift + L</kbd> or by navigating to **Layers → Edit list** via the menus as seen here,
@@ -292,7 +292,7 @@ This example shows how to set a CPU speed gauge threshold of 0 to 6 GHz (this is
 
 ---
 
-🔥 **High Temperature Indicator (Fire Icon)** Threshhold
+## 🔥 **High Temperature Indicator (Fire Icon)** Threshhold
 
 The **animated fire icon** visually warns when component temperatures exceed a defined limit.  
 By default, this threshold is set to **≥ 83 °C** for both CPU and GPU, controlled via the **Dynamic Color** options.
@@ -315,8 +315,9 @@ This example demonstrates how the Dynamic Color threshold is set to make the fir
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/User_Defined_Thresholds_High_Temp_Fire_Icon.jpg" width="75%">
 </p>
 
-### 🎉 You're All Set!
+# 🎉 You're All Set!
 Enjoy benchmarking with **TroyMetrics Benchmark Overlays**!  
 If you have any questions or feedback, feel free to open an issue or contact me via GitHub. I’m happy to help.
-### ☕ **Enjoying the overlay?**  
+
+☕ **Enjoying the overlay?**  
 **Fuel my coffee addiction — [support me with a virtual latte!](https://buymeacoffee.com/justinraabe)**
