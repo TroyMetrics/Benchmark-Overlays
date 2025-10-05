@@ -77,6 +77,8 @@ Available color presets now include: **Ghostly Green & White (original)**, **Pur
 
 > ➡️ See also: **[How to adjust the rainbow animation speed](#-optional-setup--rainbow-speed-sensor)**
 
+## 🧩 Organized Layer Structure
+
 With the layer restructure and naming improvements introduced in [v1.8](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.8), user customization is now simpler and more organized than ever.  
 
 <p align="center">
