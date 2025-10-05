@@ -242,7 +242,7 @@ Before setting up the TroyMetrics Benchmark Overlay, make sure the following sof
 
 ## 🌈 Rainbow Animation Speed Sensor Control
 
-Since **v1.10**, the overlay package introduces a new preset — **TM Benchmark Overlay – Rainbow** — featuring a smooth full-spectrum color-shifting animation across all elements.  
+Since **[v1.10](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.10)**, the overlay package introduces a new preset — **TM Benchmark Overlay – Rainbow** — featuring a smooth full-spectrum color-shifting animation across all elements.  
 
 This section explains how to adjust the **rainbow animation speed** using a simple formula in RTSS.
 
