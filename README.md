@@ -106,7 +106,7 @@ This icon and alert is triggered when one or more 12VHPWR pins exceed the maximu
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Power_Alert_Preview.png" width="100%"><br><br>
 </p>
   
-## <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_NA.png" width="20"> **Sensors Not Available** <br>
+## <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_NA.png" width="20"> **Sensors Not Available ➖** <br>
 
 This notice is shown when **per-pin amperage telemetry is unavailable**, either because the **user’s GPU does not support individual 12VHPWR pin sensors**, or because **HWiNFO64 is not running or not reporting sensor data**. In this state, the Power Detector is unable to monitor power integrity or detect pin-specific anomalies.
 <p align="center">
