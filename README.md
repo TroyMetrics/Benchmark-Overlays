@@ -83,9 +83,19 @@ This notice is shown when **per-pin amperage telemetry is unavailable**, either 
   </a>
 </div>
 
+New color customization options have expanded significantly since [v1.09], making it easier than ever to personalize your overlay.  
 
+Available color presets now include: **Ghostly Green & White (original)**, **Pure Green**, **Electric Blue**, **Bright Yellow**, **Hot Pink**, **Pure Orange**, **Ghostly Green**, and the new **Rainbow preset** introduced in [v1.10].  
 
-New color and remix options will keep rolling out over time, and customization is now easier than ever in the latest release. Got your own design or remix? Share it in the [Guru3D Forum](https://forums.guru3d.com/threads/benchmark-overlays-by-troymetrics-power-detector-module.456668/) — the best ones may even get featured in the official download! 🔥
+➡️ [See also: How to adjust the rainbow animation speed](#optional-setup--rainbow-speed-sensor)
+
+With the layer restructure and naming improvements introduced in [v1.08], user customization is now simpler and more organized than ever.  
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Organized_Layers.gif"><br><br>
+</p>
+
+Got your own design or remix? Share it in the [Guru3D Forum](https://forums.guru3d.com/threads/benchmark-overlays-by-troymetrics-power-detector-module.456668/) — the best ones may even get featured in the official download! 🔥
 
 # 🛠️ Setup & Installation
 
@@ -184,6 +194,47 @@ This step places the overlay files in the correct RTSS directory.
 </div>
 
 ✅ Your overlay is now fully active and ready to use!
+
+---
+
+## 🌈 **(Optional) Setup – Rainbow Speed Sensor**
+
+Since **v1.10**, the overlay package introduces a new preset — **TM Benchmark Overlay – Rainbow** — featuring a smooth full-spectrum color-shifting animation across all elements.  
+
+This section explains how to adjust the **rainbow animation speed** using a simple formula in RTSS.
+
+![Rainbow GPU Preview](https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Rainbow_GPU_Preview.gif)
+
+### ✨ Overview
+* The animation speed is driven by the **data source sensor `R1`**.  
+* By default, `R1` is configured as a **30-second color loop**, using this formula:
+
+  ```
+  (x%30000)/300
+  ```
+
+### ⚙️ Adjusting the Speed
+If you’d like to make the rainbow cycle faster or slower, simply modify the loop duration in the formula.  
+To maintain the full color range without breaking the spectrum cycle, follow this pattern:
+
+| Desired Loop Duration | Formula |
+|------------------------|----------|
+| 60 seconds | `(x%60000)/600` |
+| 30 seconds *(default)* | `(x%30000)/300` |
+| 20 seconds | `(x%20000)/200` |
+| 10 seconds | `(x%10000)/100` |
+| 5 seconds | `(x%5000)/50` |
+
+You can experiment with other values as long as the **division remains consistent** with the total loop time.
+
+### ⚠️ Note
+A “true” rainbow gradient (like a continuous static gradient texture) is not currently possible in RTSS unless it’s rendered as a static image.  
+This preset instead uses a **color-shifting animation** to simulate a rainbow-like cycle.
+
+### 🧭 Example Setup
+Below is an example of the **Rainbow Speed Sensor** configured in RTSS OverlayEditor:
+
+![Rainbow Speed Sensor](https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Rainbow_Speed_Sensor.jpg)
 
 ---
 
