@@ -51,7 +51,6 @@ Added below the Frame Time Graph, now showing **Render Latency** and **Sim-to-Re
 
 Designed for **GPUs equipped with 12VHPWR per-pin telemetry**, such as the **ASUS ROG Astral GeForce RTX 5090**, this module provides real-time electrical insight directly within the overlay.  
 
-### 🔹 Key Highlights
 - Displays **individual 12VHPWR pin amperage** in real time.  
 - Calculates and displays **total current draw** and **pin balance percentage**.  
 - Uses adaptive color indicators to show **normal, warning, and danger** states.  
