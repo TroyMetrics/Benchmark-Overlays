@@ -50,10 +50,48 @@ Added below the Frame Time Graph, now showing **Render Latency** and **Sim-to-Re
   • While active, the Frame Time Graph switches to the updated mode for accurate pacing display.  
 > Note: Frametime metrics with Frame Gen may lag by ~3 seconds due to PresentMon limitations.
 
-# ⚡️ Power Detector Module  
+## ⚡️ Advanced Power Detector Module (for supported GPUs)
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Preview.gif" width="100%">
 </p>
+
+Designed for **GPUs equipped with 12VHPWR per-pin telemetry**, such as the **ASUS ROG Astral GeForce RTX 5090**, this module provides real-time electrical insight directly within the overlay.  
+
+### 🔹 Key Highlights
+- Displays **individual 12VHPWR pin amperage** in real time.  
+- Calculates and displays **total current draw** and **pin balance percentage**.  
+- Uses adaptive color indicators to show **normal, warning, and danger** states.  
+- Alerts the user to unsafe conditions such as  
+  ‣ **Excessive current** (≥ 9.2 A per pin)  
+  ‣ **Dropped pins** (≈ 0 A)  
+  ‣ **Imbalance** across 12 V rails.  
+- Enables **early detection** of potential cable or connector faults before failure occurs.
+
+> ➡️ See more details and full safety information in [⚡Power Detector Features & Warnings](#-power-detector-features--warnings)
+
+## 🌈 Color Options
+
+<div align="center">
+  <a href="https://youtu.be/v7VLgzUj9RE">
+    <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Video_Github.jpg" width="850">
+  </a>
+</div>
+
+New color customization options have expanded significantly since [v1.9](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.9), making it easier than ever to personalize your overlay.  
+
+Available color presets now include: **Ghostly Green & White (original)**, **Pure Green**, **Electric Blue**, **Bright Yellow**, **Hot Pink**, **Pure Orange**, **Ghostly Green**, and the new **Rainbow preset** introduced in [v1.10](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.10).  
+
+➡️ See also: **[How to adjust the rainbow animation speed](https://github.com/TroyMetrics/Benchmark-Overlays#-optional-setup--rainbow-speed-sensor)**
+
+With the layer restructure and naming improvements introduced in [v1.8](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.8), user customization is now simpler and more organized than ever.  
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Organized_Layers.gif"><br><br>
+</p>
+
+Got your own design or remix? Share it in the [Guru3D Forum](https://forums.guru3d.com/threads/benchmark-overlays-by-troymetrics-power-detector-module.456668/) — the best ones may even get featured in the official download! 🔥
+
+# ⚡️ Power Detector Features & Warnings
 
 The Power Detector module is designed for GPUs with 12VHPWR per-pin sensors (such as the ASUS ROG Astral RTX 5090). The Power Detector monitors individual pin amperage, calculating total current, pin balance percentage, and visualizing per-pin status. It dynamically alerts users to unsafe conditions like excessive current (≥9.2 A), dropped pins (≈0 A), and imbalance across power rails—enabling early detection of potential cable or connector issues.
 
@@ -79,28 +117,6 @@ This notice is shown when **per-pin amperage telemetry is unavailable**, either 
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Sensors_NA.gif" width="100%"><br><br>
 </p>
-
-## 🌈 New Color Options Available!
-
-<div align="center">
-  <a href="https://youtu.be/v7VLgzUj9RE">
-    <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Video_Github.jpg" width="850">
-  </a>
-</div>
-
-New color customization options have expanded significantly since [v1.9](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.9), making it easier than ever to personalize your overlay.  
-
-Available color presets now include: **Ghostly Green & White (original)**, **Pure Green**, **Electric Blue**, **Bright Yellow**, **Hot Pink**, **Pure Orange**, **Ghostly Green**, and the new **Rainbow preset** introduced in [v1.10](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.10).  
-
-➡️ See also: **[How to adjust the rainbow animation speed](https://github.com/TroyMetrics/Benchmark-Overlays#-optional-setup--rainbow-speed-sensor)**
-
-With the layer restructure and naming improvements introduced in [v1.8](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.8), user customization is now simpler and more organized than ever.  
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Organized_Layers.gif"><br><br>
-</p>
-
-Got your own design or remix? Share it in the [Guru3D Forum](https://forums.guru3d.com/threads/benchmark-overlays-by-troymetrics-power-detector-module.456668/) — the best ones may even get featured in the official download! 🔥
 
 # 🛠️ Setup & Installation
 
