@@ -59,19 +59,19 @@ The Power Detector module is designed for GPUs with 12VHPWR per-pin sensors (suc
 
 <!-- Power Detector Warnings -->
 
-## <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_Normal.png" width="20"> **Normal State** <br>
+## <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_Normal.png" width="20"> **Normal State ✅** <br>
 This icon indicates that all 12VHPWR pins are operating within expected parameters — with amperage levels safely below the maximum rated specification and well-balanced across all pins. No action is required. ✅<br><br>
 
-## <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_Danger.png" width="20"> **Danger State (Power Alert)** <br>
+## <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_Warning.png" width="20"> **Warning State (Power Imbalance) ⚠️** <br>
+This icon and alert activates when a significant current disparity is detected between pins (**≤85% power balance**) which may result in hazardous operating conditions under sustained or peak GPU load. The included chart provides a clear visual breakdown of each pin's current deviation from the target or **ideal** per-pin load, calculated dynamically based on total power draw. ⚠️<br>
+<p align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Imbalance_Chart.gif?raw=true" width="100%"><br><br>
+
+## <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_Danger.png" width="20"> **Danger State (Power Alert) 💀** <br>
 This icon and alert is triggered when one or more 12VHPWR pins exceed the maximum rated specification of **9.2 amps**, or drops to **0 amps**, indicating a critical deviation from safe operating conditions that may result in power delivery failure or hardware damage. 🔴<br>
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Power_Alert_Preview.png" width="100%"><br><br>
 </p>
-
-## <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_Warning.png" width="20"> **Warning State (Power Imbalance)** <br>
-This icon and alert activates when a significant current disparity is detected between pins (**≤85% power balance**) which may result in hazardous operating conditions under sustained or peak GPU load. The included chart provides a clear visual breakdown of each pin's current deviation from the target or **ideal** per-pin load, calculated dynamically based on total power draw. ⚠️<br>
-<p align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Imbalance_Chart.gif?raw=true" width="100%"><br><br>
   
 ## <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Status_NA.png" width="20"> **Sensors Not Available** <br>
 
