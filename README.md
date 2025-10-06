@@ -7,7 +7,7 @@
   </a>
 </div>
 
-# Overview
+# 📖 Overview
 
 A clean and professional RTSS overlay built for high-visibility performance benchmarking. This fully dynamic overlay balances vital metrics with visual clarity and adapts to any Intel or AMD CPU (up to 24 cores), ensuring correct core ordering for accurate real-time hardware insight during gameplay or stress tests.
 
@@ -18,7 +18,7 @@ A clean and professional RTSS overlay built for high-visibility performance benc
 
 **Now includes 14 Presets:** Benchmark 3-Fan Power Detector, Benchmark 2-Fan, Benchmark 3-Fan, 12VHPWR Power Detector (Power Detector Only), 3 Presets with Latency Modules, and [7 Color Options](#-color-options)
 
-# Features
+# 💎 Features
 
 ## 🧠 System Monitoring
 Displays all standard real-time performance metrics including **1% lows**, **average**, and **current FPS**, as well as **CPU and GPU temperatures**, **clock speeds**, **utilization**, **VRAM and system RAM usage**, **latency**, and **power readings** — providing a complete overview of system performance at a glance.
