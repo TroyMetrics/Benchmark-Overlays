@@ -236,8 +236,7 @@ Before setting up the TroyMetrics Benchmark Overlay, make sure the following sof
 - This overlay was designed for 4K displays at a 300% Zoom level to ensure sharp visuals. You can resize the entire overlay by adjusting the Zoom slider within RTSS to best fit your screen.
 <div align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/RTSS_Zoom_Example.gif">
-</div>
-
+</div>  <br><br>
 ✅ Your overlay is now fully active and ready to use!
 
 ---
