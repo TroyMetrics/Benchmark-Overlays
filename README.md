@@ -108,7 +108,7 @@ Designed for **GPUs equipped with 12VHPWR per-pin telemetry**, such as the **ASU
   <a href="https://youtu.be/v7VLgzUj9RE">
     <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Video_Github.jpg" width="850">
   </a>
-</div>
+</div><br><br>
 
 Color presets include: **Ghostly Green & White (original)**, **Pure Green**, **Electric Blue**, **Bright Yellow**, **Hot Pink**, **Pure Orange**, **Ghostly Green**, and **Rainbow** (introduced in [v1.10](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.10))  
 
