@@ -20,28 +20,41 @@ A clean and professional RTSS overlay built for high-visibility performance benc
 
 # Features
 
+## 🧠 System Monitoring
+Displays all standard real-time performance metrics including **1% lows**, **average**, and **current FPS**, as well as **CPU and GPU temperatures**, **clock speeds**, **utilization**, **VRAM and system RAM usage**, **latency**, and **power readings** — providing a complete overview of system performance at a glance.
+
 ## 📊 Adaptive CPU Barchart
+This fully dynamic layout automatically adjusts for 4 to 24-core CPUs, detecting and displaying only physical cores in properly ordered CPU bar charts. On Intel systems, Performance (P) cores are shown first, followed by Efficiency (E) cores. On AMD, cores are displayed in logical, physical order — providing an accurate and readable view of real CPU utilization during gameplay or stress testing.  
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Dynamic_CPU_Core_Barchart.gif" width="75%">
 </p>
 
-This fully dynamic layout automatically adjusts for 4 to 24-core CPUs, detecting and displaying only physical cores in properly ordered CPU bar charts. On Intel systems, Performance (P) cores are shown first, followed by Efficiency (E) cores. On AMD, cores are displayed in logical, physical order — providing an accurate and readable view of real CPU utilization during gameplay or stress testing.
-
-## 🧠 System Monitoring
-Includes 1% lows, average, and current FPS metrics, GPU and CPU temperatures, clock speeds, average effective clock speeds, utilization, VRAM usage, system RAM usage, latency metrics and more.
-
 ## 🕹️ Latency Module (Render | Sim-to-Render Latency)
 Added below the Frame Time Graph, now showing **Render Latency** and **Sim-to-Render Latency** in milliseconds.
-- Dynamic values are centered for cleaner aesthetics given the layout while the titles (LAT and MS) remain static for less distraction. 
-- Metrics are capped at **999 ms** to prevent huge number strings from shooting across the screen during certain scenarios (e.g. when Alt-Tabbing in and out of a game).
+* Dynamic values are centered for cleaner aesthetics given the layout while the titles (LAT and MS) remain static for less distraction. 
+* Metrics are capped at **999 ms** to prevent huge number strings from shooting across the screen during certain scenarios (e.g. when Alt-Tabbing in and out of a game).
 <p align="center">
   <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Latency_Module.gif">
 </p>
 
 ## 🔺Frame Gen Indicator
-  • A subtle blinking icon now appears next to **FPS** when Frame Gen is active.  
-  • While active, the Frame Time Graph switches to the updated mode for accurate pacing display.  
-> Note: Frametime metrics with Frame Gen may lag by ~3 seconds due to PresentMon limitations.
+A subtle blinking icon now appears next to **FPS** when **Frame Gen** is enabled.  
+<p align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/FG_Indicator_Icon.gif" width="25%">
+</p>  
+
+## 📈 FrameTime Graph & Stutter Detection
+The **FrameTime Module** provides a real-time visualization of frame pacing, displaying frame times between **0–50 ms** to ensure smooth gameplay analysis. It’s designed to make stutter events easily identifiable during benchmarking or in-game monitoring.
+
+* **Dynamic Stutter Dectection** graph flashes red when a stutter is detected by comparing the current frametime to a **sliding average** (×2 threshold).  
+* Includes a **Spike Indicator**, a clean white bar that travels in sync with the frametime graph to visualize frame time spikes (≥ 66.66 ms).
+* Adapts dynamically with **Frame Gen**, ensuring accurate frametime reporting while **frame-gen** is enabled.  
+  ‣ **FrameGen ON:** switches the graph to display **output-side (display) sensors** eliminating the weird “fat” or “jagged” frametime patterns that older overlays produced when frame generation was active.  
+  ‣ **FrameGen OFF:** Operates in classic mode, monitoring the standard game-side frame pacing.  
+> 📝 Note: Frametime metrics with **Frame Gen** may lag by ~3 seconds due to PresentMon limitations.  
+<p align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/FT_Spike_Indicator.gif" width="50%">
+</p>  
 
 ## ⚡️ Power Detector Module (for supported GPUs)
 <p align="center">
@@ -50,14 +63,14 @@ Added below the Frame Time Graph, now showing **Render Latency** and **Sim-to-Re
 
 Designed for **GPUs equipped with 12VHPWR per-pin telemetry**, such as the **ASUS ROG Astral GeForce RTX 5090**, this module provides real-time electrical insight directly within the overlay.  
 
-- Displays **individual 12VHPWR pin amperage** in real time.  
-- Calculates and displays **total current draw** and **pin balance percentage**.  
-- Uses adaptive color indicators to show **normal, warning, and danger** states.  
-- Alerts the user to unsafe conditions such as  
+* Displays **individual 12VHPWR pin amperage** in real time.  
+* Calculates and displays **total current draw** and **pin balance percentage**.  
+* Uses **status indicator icons** to show **normal, warning, and danger** states.  
+* Alerts the user to unsafe conditions such as  
   ‣ **Excessive current** (≥ 9.2 A per pin)  
   ‣ **Dropped pins** (≈ 0 A)  
   ‣ **Imbalance** across 12 V rails.  
-- Enables **early detection** of potential cable or connector faults before failure occurs.
+* Enables **early detection** of potential cable or connector faults before failure occurs.
 
 > ➡️ Details and full safety information are outlined within the [⚡Power Detector Features & Warnings](#%EF%B8%8F-power-detector-features--warnings) section.
 
