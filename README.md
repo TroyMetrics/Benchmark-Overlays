@@ -178,7 +178,7 @@ Before setting up the TroyMetrics Benchmark Overlay, make sure the following sof
 🔽 Download the latest BETA versions of **MSI Afterburner & RTSS** from [www.guru3d.com](https://www.guru3d.com/files-details/msi-afterburner-beta-download.html)
 > 📝 Note: The latest beta builds are often shared exclusively on the official Guru3D forums by the developer, Unwinder.
 - The MSI Afterburner installer comes bundled with **RivaTuner Statistics Server (RTSS)** — this is required for the overlay to function.
-- During installation, ensure that **✅ RTSS** is **check-marked.**
+- During installation, ensure that **✅ RivaTuner Statistics Server** is left **check-marked.**
 
 ---
 
