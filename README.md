@@ -264,6 +264,7 @@ This section explains how to adjust the **rainbow animation speed** using a simp
 **⚙️ Adjusting the Speed**
 
 If you’d like to make the rainbow cycle faster or slower, simply modify the loop duration in the formula.  
+
 To maintain the full color range without breaking the spectrum cycle, follow this pattern:
 
 | Desired Loop Duration | Formula |
