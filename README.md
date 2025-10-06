@@ -250,7 +250,9 @@ Since **[v1.10](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v
 
 This section explains how to adjust the **rainbow animation speed** using a simple formula in RTSS.
 
-![Rainbow GPU Preview](https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Rainbow_GPU_Preview.gif)
+<div align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Rainbow_GPU_Preview.gif">
+</div>
 
 **✨ Overview**
 * The animation speed is driven by the **data source sensor `R1`**.  
