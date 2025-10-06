@@ -59,7 +59,7 @@ The **FrameTime Module** provides a real-time visualization of frame pacing, dis
 
 ## ⚡️ Power Detector Module (for supported GPUs)
 <p align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Preview.gif" width="100%">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Preview.gif">
 </p>
 
 Designed for **GPUs equipped with 12VHPWR per-pin telemetry**, such as the **ASUS ROG Astral GeForce RTX 5090**, this module provides real-time electrical insight directly within the overlay.  
@@ -235,7 +235,7 @@ Before setting up the TroyMetrics Benchmark Overlay, make sure the following sof
 **7. 🔍 Adjust Zoom Slider (if necessary)**
 - This overlay was designed for 4K displays at a 300% Zoom level to ensure sharp visuals. You can resize the entire overlay by adjusting the Zoom slider within RTSS to best fit your screen.
 <div align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/RTSS_Zoom_Example.gif" style="max-height: 800px; width: auto;">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/RTSS_Zoom_Example.gif">
 </div>
 
 ✅ Your overlay is now fully active and ready to use!
@@ -295,7 +295,7 @@ Each **speed gauge icon** consists of three layers:
 **Needle**, **Body**, and **Fill** — all visible in the **Layers Edit list** <kbd>Ctrl + Shift + L</kbd> or by navigating to **Layers → Edit list** via the menus as seen here,
 
 <p align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/User_Defined_Thresholds_Layer_Properties.jpg" width="75%">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/User_Defined_Thresholds_Layer_Properties.jpg">
 </p>
 
 By default, the **GPU Speed Gauge** is configured for a range of **0 – 3000 MHz**, suitable for GPUs such as the RTX 5090.  
@@ -309,12 +309,12 @@ If you’re using hardware with lower maximum clock speeds (for example, an RTX 
 
 This example shows how to set a GPU speed gauge threshold of 0 to 3000 MHz (this is the default value):
 <p align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/User_Defined_Thresholds_GPU_Speed_Gauge.jpg" width="75%">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/User_Defined_Thresholds_GPU_Speed_Gauge.jpg">
 </p>
 
 This example shows how to set a CPU speed gauge threshold of 0 to 6 GHz (this is the default value):
 <p align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/User_Defined_Thresholds_CPU_Speed_Gauge.jpg" width="75%">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/User_Defined_Thresholds_CPU_Speed_Gauge.jpg">
 </p>
 
 > 📝 Note: This step must be done for both the needle, and the fill layers so that they match.
@@ -338,7 +338,7 @@ To customize:
 
 This example demonstrates how the Dynamic Color threshold is set to make the fire icon visible when GPU temperature ≥ 100 °C.
 <p align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/User_Defined_Thresholds_High_Temp_Fire_Icon.jpg" width="75%">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/User_Defined_Thresholds_High_Temp_Fire_Icon.jpg">
 </p>
 
 # 🎉 You're All Set!
