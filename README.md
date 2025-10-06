@@ -110,7 +110,7 @@ Designed for **GPUs equipped with 12VHPWR per-pin telemetry**, such as the **ASU
   </a>
 </div><br><br>
 
-Color presets include: **🟩 Ghostly Green & White (original)**, **🟩 Pure Green**, **🟦 Electric Blue**, **🟨 Bright Yellow**, **♀️🩷♦️💋🧧 Hot Pink**, **🟧 Pure Orange**, **🟩 Ghostly Green**, and **🌈 Rainbow** (introduced in [v1.10](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.10))  
+Color presets include: **🟩 Ghostly Green & White (original)**, **🟩 Pure Green**, **🟦 Electric Blue**, **🟨 Bright Yellow**, **🩷 Hot Pink**, **🟧 Pure Orange**, **🟩 Ghostly Green**, and **🌈 Rainbow** (introduced in [v1.10](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.10))  
 
 > ➡️ See also: **[How to adjust the rainbow animation speed](#-rainbow-animation-speed-sensor-control)**
 
