@@ -37,7 +37,7 @@ Added below the Frame Time Graph, now showing **Render Latency** and **Sim-to-Re
   <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Latency_Module.gif">
 </p>
 
-## 🔺Frame Gen Indicator
+## 🔺 Frame Gen Indicator
 A subtle blinking icon now appears within the **Framerate Module** next to **FPS** when **Frame Gen** is enabled.  
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/FG_Indicator_Icon.gif">
