@@ -1,4 +1,4 @@
-<h1 align="center">Benchmark Overlay</h1>
+<h1 align="center">TroyMetrics Benchmark Overlays</h1>
 <p align="center">RTSS / RivaTuner Overlay by TroyMetrics 👻</p>
 
 <div align="center">
