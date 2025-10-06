@@ -348,5 +348,5 @@ Enjoy benchmarking with **TroyMetrics Benchmark Overlays**!
 
 If you have any questions or feedback, feel free to open an issue or contact me via GitHub. I’m happy to help.
 
-☕ **Enjoying the overlay?**  
+## ☕ **Enjoying the overlay?**  
 **Fuel my coffee addiction — [support me with a virtual latte!](https://buymeacoffee.com/justinraabe)**
