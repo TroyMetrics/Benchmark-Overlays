@@ -65,7 +65,7 @@ The logic relies on vendor-specific thermal throttle sensors from HWiNFO to accu
 
 <div align="center">
 
-| **Category** | **Vendor** | **HWiNFO Sensor Used** |
+| **Category** | **Vendor** | **HWiNFO Sensor** |
 |:-------------:|:-----------:|:------------------|
 | GPU 🖥️| NVIDIA | Performance Limit – Thermal |
 | GPU 🖥️| AMD | GPU VR GFX Thermal Limit |
