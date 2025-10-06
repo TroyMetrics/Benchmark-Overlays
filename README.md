@@ -57,6 +57,32 @@ The **FrameTime Module** provides a real-time visualization of frame pacing, dis
 
 > 📝 Note: Frametime metrics with **Frame Gen** may lag by ~3 seconds due to PresentMon limitations.  
 
+## 🌡️ Thermal Throttle Detection
+
+The logic relies on vendor-specific throttle indicators to accurately detect physical downclocking events triggered by thermal limits:
+
+<div align="center">
+
+| **Category** | **Vendor** | **HWiNFO Sensor Used** |
+|:-------------:|:-----------:|:------------------|
+| GPU 🖥️| NVIDIA | Performance Limit – Thermal |
+| GPU 🖥️| AMD | GPU VR GFX Thermal Limit |
+| GPU 🖥️| Intel | Hardware Limit ||
+| CPU 🔲| Intel | Package / Ring Thermal Throttling |
+| CPU 🔲| AMD | Thermal Throttling (PROCHOT EXT) |
+
+</div>
+
+* When **no throttling** is detected → the standard CPU/GPU name is displayed.  
+* When **throttling is detected** → the module text changes to a **flashing “THERMAL THROTTLE”** alert (as shown below).  
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Thermal_Throttle_Detection_GPU.gif">
+  <br>
+  <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Thermal_Throttle_Detection_CPU.gif">
+</p>
+
+
 ## ⚡️ Power Detector Module (for supported GPUs)
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Preview.gif">
