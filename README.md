@@ -59,7 +59,7 @@ The **FrameTime Module** provides a real-time visualization of frame pacing, dis
 
 ## 🌡️ Thermal Throttle Detection
 
-The logic relies on vendor-specific thermal throttle sensors from HWiNFO to accurately detect physical downclocking events triggered by thermal limits. These sensors are then unified into two RTSS sensors `GPUThrottle` and `CPUThrottle`.
+Each hardware vendor provides its own **thermal throttle indicators** in **HWiNFO**. These sensors reveal when the CPU or GPU physically reduces clock speed to prevent overheating. The overlay merges those readings into two unified RTSS sensors — `GPUThrottle` and `CPUThrottle` — for consistent detection across all platforms.
 
 **🧠 Detection Sources:**  
 
