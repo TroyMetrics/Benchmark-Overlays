@@ -75,7 +75,7 @@ Each hardware vendor provides its own **thermal throttle indicators** in **HWiNF
 </div>
 
 * When **no throttling** is detected → the standard CPU/GPU name is displayed.  
-* When **throttling is detected** → the module text changes to a **flashing “THERMAL THROTTLE”** alert (as shown below).  
+* When **throttling is detected** → the module text changes to a **flashing “GPU/CPU THROTTLE”** alert (as shown below).  
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Thermal_Throttle_Detection_GPU.gif">
