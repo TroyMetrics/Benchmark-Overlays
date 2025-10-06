@@ -299,6 +299,7 @@ Each **speed gauge icon** consists of three layers:
 </p>
 
 By default, the **GPU Speed Gauge** is configured for a range of **0 – 3000 MHz**, suitable for GPUs such as the RTX 5090.  
+
 If you’re using hardware with lower maximum clock speeds (for example, an RTX 3060 Ti with a 1665 MHz boost clock), you can adjust the range as follows:
 
 1. Select the **Needle** or **Fill** layer.  
