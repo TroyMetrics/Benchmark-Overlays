@@ -40,7 +40,7 @@ Added below the Frame Time Graph, now showing **Render Latency** and **Sim-to-Re
 ## 🔺Frame Gen Indicator
 A subtle blinking icon now appears next to **FPS** when **Frame Gen** is enabled.  
 <p align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/FG_Indicator_Icon.gif" width="25%">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/FG_Indicator_Icon.gif">
 </p>  
 
 ## 📈 FrameTime Graph & Stutter Detection
@@ -53,7 +53,7 @@ The **FrameTime Module** provides a real-time visualization of frame pacing, dis
   ‣ **FrameGen OFF:** Operates in classic mode, monitoring the standard game-side frame pacing.  
 > 📝 Note: Frametime metrics with **Frame Gen** may lag by ~3 seconds due to PresentMon limitations.  
 <p align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/FT_Spike_Indicator.gif" width="50%">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/FT_Spike_Indicator.gif">
 </p>  
 
 ## ⚡️ Power Detector Module (for supported GPUs)
