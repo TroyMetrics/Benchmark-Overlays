@@ -7,8 +7,6 @@
   </a>
 </div>
 
-> 🍿 The video above takes you on a full tour of the TroyMetrics Benchmark Overlay, showcasing its features and performance modules while benchmarking Ark: Survival Ascended on an ASUS ROG Astral RTX 5090 and AMD Ryzen 9 9950X3D system.
-
 # 📖 Overview
 
 A clean and professional RTSS overlay built for high-visibility performance benchmarking. This fully dynamic overlay balances vital metrics with visual clarity and adapts to any Intel or AMD CPU (up to 24 cores), ensuring correct core ordering for accurate real-time hardware insight during gameplay or stress tests.
