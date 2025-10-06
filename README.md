@@ -9,7 +9,7 @@
 
 # 📖 Overview
 
-A clean and professional RTSS overlay built for high-visibility performance benchmarking. This fully dynamic overlay balances vital metrics with visual clarity and adapts to any Intel or AMD CPU (up to 24 cores), ensuring correct core ordering for accurate real-time hardware insight during gameplay or stress tests.
+A high-precision performance monitoring suite built for enthusiasts, content creators, and system tuners who demand both accuracy and visual clarity. Designed for **RTSS (RivaTuner Statistics Server)** and fully powered by **HWiNFO**, it unifies dozens of advanced metrics into a single cohesive display — optimized for benchmarking, gameplay, and system analysis.
 
 <div align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/2-Fan_Preview.gif" style="max-height: 800px; width: auto;">
