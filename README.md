@@ -1,5 +1,5 @@
 <h1 align="center">TroyMetrics Benchmark Overlays</h1>
-<p align="center">RTSS / RivaTuner Overlay by TroyMetrics 👻</p>
+<p align="center">RTSS / RivaTuner Overlays by TroyMetrics 👻</p>
 
 <div align="center">
   <a href="https://youtu.be/O6pbmgcFB5U?si=fzjMaL5J3nlO0qs9">
