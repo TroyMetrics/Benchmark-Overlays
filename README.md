@@ -75,7 +75,7 @@ Designed for **GPUs equipped with 12VHPWR per-pin telemetry**, such as the **ASU
 
 > ➡️ Details and full safety information are outlined within the [⚡Power Detector Features & Warnings](#%EF%B8%8F-power-detector-features--warnings) section.
 
-## 🌈 Color Options
+## 🌈 Color Presets
 
 <div align="center">
   <a href="https://youtu.be/v7VLgzUj9RE">
