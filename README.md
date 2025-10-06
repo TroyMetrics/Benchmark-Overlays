@@ -267,6 +267,8 @@ If you’d like to make the rainbow cycle faster or slower, simply modify the lo
 
 To maintain the full color range without breaking the spectrum cycle, follow this pattern:
 
+<div align="center">
+
 | Desired Loop Duration | Formula |
 |------------------------|----------|
 | 60 seconds | `(x%60000)/600` |
@@ -274,6 +276,8 @@ To maintain the full color range without breaking the spectrum cycle, follow thi
 | 20 seconds | `(x%20000)/200` |
 | 10 seconds | `(x%10000)/100` |
 | 5 seconds | `(x%5000)/50` |
+
+</div>
 
 You can experiment with other values as long as the **division remains consistent** with the total loop time.
 
