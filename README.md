@@ -70,7 +70,7 @@ Designed for **GPUs equipped with 12VHPWR per-pin telemetry**, such as the **ASU
 * Alerts the user to unsafe conditions such as  
   ‣ **Excessive current** (≥ 9.2 A per pin)  
   ‣ **Dropped pins** (≈ 0 A)  
-  ‣ **Power Imbalance** across the 6 cable pins.  
+  ‣ **Power Imbalance** across all 6 pins.  
 * Enables **early detection** of potential cable or connector faults before failure occurs.
 
 > ➡️ Details and full safety information are outlined within the [⚡Power Detector Features & Warnings](#%EF%B8%8F-power-detector-features--warnings) section.
