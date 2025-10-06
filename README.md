@@ -107,17 +107,18 @@ The Power Detector module is designed for GPUs with 12VHPWR per-pin sensors (suc
 
 ## **🟢 Normal State**
 
+This status icon indicates that all 12VHPWR pins are operating within expected parameters — with amperage levels safely below the maximum rated specification and well-balanced across all pins. No action is required. ✅
+
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Preview.gif">
 </p>
-
-This status icon indicates that all 12VHPWR pins are operating within expected parameters — with amperage levels safely below the maximum rated specification and well-balanced across all pins. No action is required. ✅
 
 ---
 
 ## **🟡 Warning State (Power Imbalance)**
 
-This status icon and alert activates when a significant current disparity is detected between pins (**≤85% power balance**) which may result in hazardous operating conditions under sustained or peak GPU load. The included chart provides a clear visual breakdown of each pin's current deviation from the target or **ideal** per-pin load, calculated dynamically based on total power draw. ⚠️<br>
+This status icon and alert activates when a significant current disparity is detected between pins (**≤85% power balance**) which may result in hazardous operating conditions under sustained or peak GPU load. The included chart provides a clear visual breakdown of each pin's current deviation from the target or **ideal** per-pin load, calculated dynamically based on total power draw. ⚠️
+
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Imbalance_Chart.gif">
 
@@ -125,7 +126,8 @@ This status icon and alert activates when a significant current disparity is det
 
 ## **🔴 Danger State (Power Alert)**
 
-This status icon and alert is triggered when one or more 12VHPWR pins exceed the maximum rated specification of **9.2 amps**, or drops to **0 amps**, indicating a critical deviation from safe operating conditions that may result in power delivery failure or hardware damage. 🔴<br>
+This status icon and alert is triggered when one or more 12VHPWR pins exceed the maximum rated specification of **9.2 amps**, or drops to **0 amps**, indicating a critical deviation from safe operating conditions that may result in power delivery failure or hardware damage. 💀
+
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Power_Alert_Preview.png">
 </p>
@@ -135,6 +137,7 @@ This status icon and alert is triggered when one or more 12VHPWR pins exceed the
 ## **➖ Sensors Not Available**
 
 This status icon and notice is shown when **per-pin amperage telemetry is unavailable**, either because the **user’s GPU does not support individual 12VHPWR pin sensors**, or because **HWiNFO64 is not running or not reporting sensor data**. In this state, the Power Detector is unable to monitor power integrity or detect pin-specific anomalies.
+
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Sensors_NA.gif">
 </p>
