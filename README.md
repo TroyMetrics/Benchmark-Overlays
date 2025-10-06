@@ -50,12 +50,11 @@ The **FrameTime Module** provides a real-time visualization of frame pacing, dis
 * Includes a **Spike Indicator**, a clean white bar that travels in sync with the frametime graph to visualize frame time spikes (≥ 66.66 ms).
 * Adapts dynamically with **Frame Gen**, ensuring accurate frametime reporting while **frame-gen** is enabled.  
   ‣ **FrameGen ON:** switches the graph to display **output-side (display) sensors** eliminating the weird “fat” or “jagged” frametime patterns that older overlays produced when frame generation was active.  
-  ‣ **FrameGen OFF:** Operates in classic mode, monitoring the standard game-side frame pacing.  
+  ‣ **FrameGen OFF:** Operates in classic mode, monitoring the standard game-side frame pacing.
+  > 📝 Note: Frametime metrics with **Frame Gen** may lag by ~3 seconds due to PresentMon limitations.  
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/FT_Spike_Indicator.gif">
 </p>  
-
-> 📝 Note: Frametime metrics with **Frame Gen** may lag by ~3 seconds due to PresentMon limitations.  
 
 ## 🌡️ Thermal Throttle Detection
 
