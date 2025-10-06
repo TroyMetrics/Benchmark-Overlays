@@ -59,7 +59,9 @@ The **FrameTime Module** provides a real-time visualization of frame pacing, dis
 
 ## 🌡️ Thermal Throttle Detection
 
-The logic relies on vendor-specific throttle indicators to accurately detect physical downclocking events triggered by thermal limits:
+The logic relies on vendor-specific thermal throttle sensors from HWiNFO to accurately detect physical downclocking events triggered by thermal limits. These sensors are then unified into two RTSS sensors `GPUThrottle` and `CPUThrottle`.
+
+**🧠 Detection Sources:**  
 
 <div align="center">
 
