@@ -100,7 +100,7 @@ Designed for **GPUs equipped with 12VHPWR per-pin telemetry**, such as the **ASU
   ‣ **Power Imbalance** across all 6 pins.  
 * Enables **early detection** of potential cable or connector faults before failure occurs.
 
-> ➡️ Details and full safety information are outlined within the [⚡Power Detector Features & Warnings](#%EF%B8%8F-power-detector-features--warnings) section.
+> ➡️ Details and full safety information are outlined within the ⚡[Power Detector Features & Warnings](#%EF%B8%8F-power-detector-features--warnings) section.
 
 ## 🌈 Color Presets
 
