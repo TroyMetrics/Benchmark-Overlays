@@ -83,9 +83,9 @@ Designed for **GPUs equipped with 12VHPWR per-pin telemetry**, such as the **ASU
   </a>
 </div>
 
-New color customization options have expanded significantly since [v1.9](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.9), making it easier than ever to personalize your overlay.  
+New color presets were released in [v1.9](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.9)
 
-Available color presets now include: **Ghostly Green & White (original)**, **Pure Green**, **Electric Blue**, **Bright Yellow**, **Hot Pink**, **Pure Orange**, **Ghostly Green**, and the new **Rainbow preset** introduced in [v1.10](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.10).  
+Color presets include: **Ghostly Green & White (original)**, **Pure Green**, **Electric Blue**, **Bright Yellow**, **Hot Pink**, **Pure Orange**, **Ghostly Green**, and an animated **Rainbow** introduced in [v1.10](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.10).  
 
 > ➡️ See also: **[How to adjust the rainbow animation speed](#-rainbow-animation-speed-sensor-control)**
 
