@@ -16,7 +16,7 @@ A high-precision performance monitoring overlay built for enthusiasts, content c
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/3-Fan_Preview.gif" style="max-height: 800px; width: auto;">
 </div><br><br>
 
-**Includes 14 Presets:** Benchmark 3-Fan Power Detector, Benchmark 2-Fan, Benchmark 3-Fan, 12VHPWR Power Detector (Power Detector Only), 3 Presets with Latency Modules, and 7 [Color Presets](#-color-presets)!
+**Includes 24 Presets:** Benchmark 3-Fan Power Detector, Benchmark 2-Fan, Benchmark 3-Fan, 12VHPWR Power Detector (Power Detector Only), 3 Presets with Latency Modules, 7 [Color Presets](#-color-presets), and 10 presets for 1080p!
 
 # 💎 Features
 
@@ -258,10 +258,15 @@ Before setting up the TroyMetrics Benchmark Overlay, make sure the following sof
 ---
 
 **7. 🔍 Adjust Zoom Slider (if necessary)**
-- This overlay was designed for 4K displays at a 300% Zoom level to ensure sharp visuals. You can resize the entire overlay by adjusting the Zoom slider within RTSS to best fit your screen.
+
+The overlay was originally designed for 4K displays at a 300% Zoom level for maximum sharpness and pixel clarity.
+
+To adjust scaling, simply use the Zoom slider in RTSS to fit your display.
 <div align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/RTSS_Zoom_Example.gif">
 </div>  <br><br>
+🖥️ For 1080p users, select the 1080p presets — these were fully redesigned to deliver crisp visuals and proper scaling at lower resolutions.
+
 ✅ Your overlay is now fully active and ready to use!
 
 ---
