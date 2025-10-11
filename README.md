@@ -264,9 +264,8 @@ The overlay was originally designed for 4K displays at a 300% Zoom level for max
 To adjust scaling, simply use the Zoom slider in RTSS to fit your display.
 <div align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/RTSS_Zoom_Example.gif">
-</div>  <br><br>
-🖥️ For 1080p users, select the 1080p presets — these were fully redesigned to deliver crisp visuals and proper scaling at lower resolutions.
-
+</div>  
+🖥️ For 1080p users, select the 1080p presets — these were fully redesigned to deliver crisp visuals and proper scaling at lower resolutions. <br><br>
 ✅ Your overlay is now fully active and ready to use!
 
 ---
