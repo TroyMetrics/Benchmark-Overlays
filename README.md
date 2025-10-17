@@ -339,7 +339,7 @@ A handy Color Reference Chart is included to guide your inner artist:
 
 > 📝 Example: Setting the **Color** sensor to `50` produces a **Cyan** accent color.  
 
-Perfect for streamers, benchmarkers, and content creators who love to match their overlay with each game’s vibe — all without editing layer properties manually. 🔥
+Perfect for streamers, benchmarkers, and content creators who love to match their overlay quickly with each game’s vibe — all without editing layer properties manually. 🔥
 
 ## 👤 Setting User-defined Thresholds
 
