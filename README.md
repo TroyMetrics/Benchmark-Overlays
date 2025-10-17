@@ -16,7 +16,7 @@ A high-precision performance monitoring overlay built for enthusiasts, content c
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/3-Fan_Preview.gif" style="max-height: 800px; width: auto;">
 </div><br><br>
 
-**Includes 24 Presets:** Benchmark 3-Fan Power Detector, Benchmark 2-Fan, Benchmark 3-Fan, 12VHPWR Power Detector (Power Detector Only), 3 Presets with Latency Modules, 7 [Color Presets](#-color-presets), and 10 presets for 1080p!
+**Includes 26 Presets:** Benchmark 3-Fan Power Detector, Benchmark 2-Fan, Benchmark 3-Fan, 12VHPWR Power Detector (Power Detector Only), 3 Presets with Latency Modules, 7 [Color Presets](#-color-presets), 10 presets for 1080p, and 2 [Color Mod 2-Tone](#-color-mod-2-tone-color-adjustment) presets!
 
 # 💎 Features
 
