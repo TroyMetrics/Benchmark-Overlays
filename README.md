@@ -318,6 +318,29 @@ Below is an example of the **Rainbow Speed Sensor** configured in RTSS OverlayEd
 
 ![Rainbow Speed Sensor](https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Rainbow_Speed_Sensor.jpg)
 
+## 🎨 Color Mod 2-Tone Color Adjustment  
+
+The following settings apply specifically to these presets:  
+
+* **TM Benchmark Overlay – Color Mod 2-Tone**  
+* **TM Benchmark 1080p – Color Mod 2-Tone**  
+
+The **Color Mod 2-Tone** presets maintain the original TroyMetrics two-tone aesthetic while introducing full dynamic color control. This allows you to instantly customize the overlay’s accent hue without modifying every layer individually.  
+
+To adjust the color:  
+1. Open the **Color** sensor in your data source list.  
+2. Set a value between **0–100** to define your desired hue across the full RGB spectrum.  
+
+A handy Color Reference Chart is included to guide your inner artist:
+
+<div align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Color_Reference_Chart.png">
+</div>  
+
+> 📝 Example: Setting the **Color** sensor to `50` produces a **Cyan** accent color.  
+
+Perfect for streamers, benchmarkers, and content creators who love to match their overlay with each game’s vibe — all without editing layer properties manually. 🔥
+
 ## 👤 Setting User-defined Thresholds
 
 The Overlay includes several **animated gauge and indicator elements** that respond dynamically to system performance metrics such as **CPU/GPU clock speeds**, **temperatures**, and **utilization**.  
