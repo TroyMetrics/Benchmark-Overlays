@@ -445,7 +445,7 @@ The Data source functions `presentmonlatency(markerFrom, markerTo)` and `reflexl
 
 ---
 
-### 💚 NVIDIA Reflex Latency Markers (RTSS 7.3.7+)
+### 💚 NVIDIA Reflex Latency Markers
 
 | **Index** | **Marker Name** | **Meaning** |
 |:--:|:--|:--|
