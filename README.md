@@ -29,10 +29,17 @@ This fully dynamic layout automatically adjusts for 4 to 24-core CPUs, detecting
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Dynamic_CPU_Core_Barchart.gif" width="75%">
 </p>
 
-## 🕹️ Latency Module (Render | Sim-to-Render Latency)
-Added below the Frame Time Graph, now showing **Render Latency** and **Sim-to-Render Latency** in milliseconds.
-* Dynamic values are centered for cleaner aesthetics given the layout while the titles (LAT and MS) remain static for less distraction. 
-* Metrics are capped at **999 ms** to prevent huge number strings from shooting across the screen during certain scenarios (e.g. when Alt-Tabbing in and out of a game).
+## 🕹️ Latency Module (Reflex + PresentMon Integration)
+
+The new **Latency Module** has been completely redesigned for [v1.13](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.13) to deliver accurate latency telemetry using both **NVIDIA Reflex** and **PresentMon** data sources.  
+
+* Automatically prioritizes **Reflex telemetry** when available (NVIDIA GPUs), with **PresentMon** fallback for all other GPUs — ensuring consistent latency metrics across any system.  
+* Displays **GPU Render Latency** and **Frame Pipeline Latency** (Simulation → GPU/Display) in real time, providing a detailed look into both CPU and GPU frame processing stages.  
+* Latency values are **clamped at 999.9 ms** to maintain aesthetic consistency and prevent overflow during momentary spikes (e.g., when Alt-Tabbing or loading between scenes).  
+* Uses the latency functions: `reflexlatency(markerFrom, markerTo)` and `presentmonlatency(markerFrom, markerTo)`.  
+
+>  📝 See Also: The [Latency Module Information](#-latency-module-information) section for more details and setup.
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Latency_Module.gif">
 </p>
@@ -398,6 +405,72 @@ This example demonstrates how the Dynamic Color threshold is set to make the fir
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/User_Defined_Thresholds_High_Temp_Fire_Icon.jpg">
 </p>
+
+---
+
+## 🕹️ Latency Module Information
+
+* The **Latency Module** includes 4 latency sensors to allow for **PresentMon latency fallback** for non-NVIDIA GPUs 
+
+Latency sensors — **GpuRenderLatency** and **FramePipelineLatency** (each available in both Reflex and PresentMon variants).  
+  - Both sensors now share the same name between Reflex and PresentMon telemetry.  
+  - If the Reflex **GpuRenderLatency** sensor appears *below* its PresentMon counterpart in the data source list, Reflex latency telemetry will take priority and display automatically (requires Nvidia GPU).  
+  - To disable Reflex for consistent cross-platform comparisons, simply move its entry **above** the PresentMon sensor in the Data source list — may be preferable if comparing benchmark results between NVIDIA vs AMD systems.
+
+### 🧩 PresentMon vs Reflex Latency Sensors & How They Work
+
+The Data source functions `presentmonlatency(markerFrom, markerTo)` and `reflexlatency(markerFrom, markerTo)` calculate the latency between two defined markers within the current frame, as [explained here](https://forums.guru3d.com/threads/msi-ab-rtss-development-news-thread.412822/page-224#post-6223060). Refer to the charts below for a clearer understanding of how each marker pair is used. In this overlay, the formula "**min(**`presentmonlatency(1,8)`**, 999.9)**" clamps latency values to a maximum of **999.9 ms** purely for aesthetic consistency and to prevent overflow during abnormal spikes.
+
+
+### 🩵 PresentMon Latency Markers
+
+| **Index** | **Marker Name** | **Meaning** |
+|:--:|:--|:--|
+| 0 | `input_sample` | Input event (used only when Reflex Analyzer hardware is available) |
+| 1 | `cpu_busy_start` | Game simulation and logic start — the CPU begins processing the next frame |
+| 2 | `cpu_busy_end` | Simulation and draw-call submission complete — CPU work for the frame ends |
+| 3 | `present_start` | CPU issues the `Present()` call to the graphics API |
+| 4 | `present_end` | `Present()` call completes — frame submitted to the OS / driver queue |
+| 5 | `gpurender_start` | GPU begins executing the rendering commands for the frame |
+| 6 | `gpurender_end` | GPU finishes rendering — frame ready for presentation |
+| 8 | `display` | Display scan-out / frame becomes visible on screen |
+
+**Notes:**
+- PresentMon collects **software-level API timestamps** (DXGI/D3D12/Vulkan) directly from the graphics stack.  
+- Default latency formulas used in this overlay:
+  - **GpuRenderLatency (GPU Render Latency):** `presentmonlatency(5,6)`  
+  - **FramePipelineLatency (Simulation → Display):** `presentmonlatency(1,8)`  
+- PresentMon measures **Simulation-to-Display**, but does **not** include driver-internal queueing or scheduling latency.  
+- Marker `0` (`input_sample`) exists for compatibility with Reflex Analyzer hardware but does not output data in standard PresentMon telemetry.
+
+---
+
+### 💚 NVIDIA Reflex Latency Markers (RTSS 7.3.7+)
+
+| **Index** | **Marker Name** | **Meaning** |
+|:--:|:--|:--|
+| 0 | `input_sample` | Input event (Reflex Analyzer hardware only) |
+| 1 | `simulation_start` | CPU simulation start — begins processing game logic and input |
+| 2 | `simulation_end` | Simulation complete — CPU is ready to hand off work to render submission |
+| 3 | `rendersubmit_start` | CPU begins submitting rendering commands to the GPU via the driver |
+| 4 | `rendersubmit_end` | CPU finishes submitting all rendering commands to the driver |
+| 5 | `present_start` | CPU issues the `Present()` call |
+| 6 | `present_end` | The `Present()` call completes and returns control to the CPU |
+| 7 | `driver_start` | Frame enters the driver queue — waiting for GPU scheduling or availability |
+| 8 | `driver_end` | Frame leaves the driver queue — driver submission is complete and GPU is ready to start |
+| 9 | `osrenderqueue_start` | OS-level render queue start (e.g., compositor or presentation manager) |
+| 10 | `osrenderqueue_end` | OS-level render queue end |
+| 11 | `gpurender_start` | GPU begins executing rendering commands (hardware render start) |
+| 12 | `gpurender_end` | GPU finishes rendering the frame (hardware render complete) |
+| 13 | `virtual_gpurender_start` | Synthetic marker = `gpurender_end – GPU active time` (derived marker for visualization or timeband graphs) |
+
+**Notes:**
+- Reflex provides **driver-level and GPU-level telemetry** inserted below the graphics API, allowing precise capture of CPU, driver, and GPU timing stages.  
+- Default latency formulas used in this overlay:
+  - **GpuRenderLatency (GPU Render Latency):** `reflexlatency(11,12)`  
+  - **FramePipelineLatency (Simulation → GPU Render End):** `reflexlatency(1,12)`  
+- With Reflex Analyzer hardware, marker `0` expands measurement to include **input latency** and **display response**, enabling complete *click-to-photon* analysis.  
+  - If you have compatible Analyzer hardware, you can modify your formula to begin at marker `0` to capture **true end-to-end latency**.
 
 # 🎉 You're All Set!
 Enjoy benchmarking with **TroyMetrics Benchmark Overlays**!  
