@@ -38,7 +38,7 @@ The new **Latency Module** has been completely redesigned for [v1.13](https://gi
 * Latency values are **clamped at 999.9 ms** to maintain aesthetic consistency and prevent overflow during momentary spikes (e.g., when Alt-Tabbing or loading between scenes).  
 * Uses the latency functions: `reflexlatency(markerFrom, markerTo)` and `presentmonlatency(markerFrom, markerTo)`.  
 
->  📝 See Also: The [Latency Module Information](#%EF%B8%8F-latency-module-information) section for more details and setup.
+>  🧙‍♂️ See Also: The [Latency Module Information](#%EF%B8%8F-latency-module-information) section for more details and setup.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Latency_Module.gif">
