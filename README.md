@@ -417,7 +417,7 @@ Latency sensors — **GpuRenderLatency** and **FramePipelineLatency** (each avai
   - If the Reflex **GpuRenderLatency** sensor appears *below* its PresentMon counterpart in the data source list, Reflex latency telemetry will take priority and display automatically (requires Nvidia GPU).  
   - To disable Reflex for consistent cross-platform comparisons, simply move its entry **above** the PresentMon sensor in the Data source list — may be preferable if comparing benchmark results between NVIDIA vs AMD systems.
 
-### 🧙‍♂️ PresentMon vs Reflex Latency Sensors & How They Work
+### 🧙‍♂️ How It Works
 
 The Data source functions `presentmonlatency(markerFrom, markerTo)` and `reflexlatency(markerFrom, markerTo)` calculate the latency between two defined markers within the current frame, as [explained here](https://forums.guru3d.com/threads/msi-ab-rtss-development-news-thread.412822/page-224#post-6223060). Refer to the charts below for a clearer understanding of how each marker pair is used. In this overlay, the formula "**min(**`presentmonlatency(1,8)`**, 999.9)**" clamps latency values to a maximum of **999.9 ms** purely for aesthetic consistency and to prevent overflow during abnormal spikes.
 
