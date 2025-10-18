@@ -410,19 +410,17 @@ This example demonstrates how the Dynamic Color threshold is set to make the fir
 
 ## 🕹️ Latency Module Information
 
-* The **Latency Module** includes 4 latency sensors to allow for **PresentMon latency fallback** for non-NVIDIA GPUs 
+The **Latency Module** includes 4 latency sensors to allow for **PresentMon latency fallback** for non-NVIDIA GPUs: **GpuRenderLatency** and **FramePipelineLatency** (each one has a Reflex and PresentMon variant making it 4 sensors in total).  
 
-Latency sensors — **GpuRenderLatency** and **FramePipelineLatency** (each available in both Reflex and PresentMon variants).  
-  - Both sensors now share the same name between Reflex and PresentMon telemetry.  
   - If the Reflex **GpuRenderLatency** sensor appears *below* its PresentMon counterpart in the data source list, Reflex latency telemetry will take priority and display automatically (requires Nvidia GPU).  
-  - To disable Reflex for consistent cross-platform comparisons, simply move its entry **above** the PresentMon sensor in the Data source list — may be preferable if comparing benchmark results between NVIDIA vs AMD systems.
+  - To disable Reflex for consistent cross-platform comparisons, simply move its entry **above** the PresentMon sensor in the Data source list — may be preferable if comparing benchmark results between NVIDIA vs AMD systems, or monitoring Sim-to-Display latency performance.
 
-### 🧙‍♂️ How It Works
+**🧙‍♂️ How It Works**
 
 The Data source functions `presentmonlatency(markerFrom, markerTo)` and `reflexlatency(markerFrom, markerTo)` calculate the latency between two defined markers within the current frame, as [explained here](https://forums.guru3d.com/threads/msi-ab-rtss-development-news-thread.412822/page-224#post-6223060). Refer to the charts below for a clearer understanding of how each marker pair is used. In this overlay, the formula "**min(**`presentmonlatency(1,8)`**, 999.9)**" clamps latency values to a maximum of **999.9 ms** purely for aesthetic consistency and to prevent overflow during abnormal spikes.
 
 
-### 🩵 PresentMon Latency Markers
+**🟦 PresentMon Latency Markers**
 
 | **Index** | **Marker Name** | **Meaning** |
 |:--:|:--|:--|
@@ -435,7 +433,7 @@ The Data source functions `presentmonlatency(markerFrom, markerTo)` and `reflexl
 | 6 | `gpurender_end` | GPU finishes rendering — frame ready for presentation |
 | 8 | `display` | Display scan-out / frame becomes visible on screen |
 
-**Notes:**
+**📝 Notes:**
 - PresentMon collects **software-level API timestamps** (DXGI/D3D12/Vulkan) directly from the graphics stack.  
 - Default latency formulas used in this overlay:
   - **GpuRenderLatency (GPU Render Latency):** `presentmonlatency(5,6)`  
@@ -445,7 +443,7 @@ The Data source functions `presentmonlatency(markerFrom, markerTo)` and `reflexl
 
 ---
 
-### 💚 NVIDIA Reflex Latency Markers
+**🟩 NVIDIA Reflex Latency Markers**
 
 | **Index** | **Marker Name** | **Meaning** |
 |:--:|:--|:--|
@@ -463,7 +461,7 @@ The Data source functions `presentmonlatency(markerFrom, markerTo)` and `reflexl
 | 11 | `gpurender_start` | GPU begins executing rendering commands (hardware render start) |
 | 12 | `gpurender_end` | GPU finishes rendering the frame (hardware render complete) |
 
-**Notes:**
+**📝 Notes:**
 - Reflex provides **driver-level and GPU-level telemetry** inserted below the graphics API, allowing precise capture of CPU, driver, and GPU timing stages.  
 - Default latency formulas used in this overlay:
   - **GpuRenderLatency (GPU Render Latency):** `reflexlatency(11,12)`  
