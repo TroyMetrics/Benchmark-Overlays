@@ -41,7 +41,7 @@ The new **Latency Module** has been completely redesigned for [v1.13](https://gi
 >  🧙‍♂️ See Also: The [Latency Module Information](#%EF%B8%8F-latency-module-information) section for more details and setup.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Latency_Module.gif">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Latency_Module_v2.gif">
 </p>
 
 ## 🔺 Frame Gen Indicator
