@@ -462,7 +462,6 @@ The Data source functions `presentmonlatency(markerFrom, markerTo)` and `reflexl
 | 10 | `osrenderqueue_end` | OS-level render queue end |
 | 11 | `gpurender_start` | GPU begins executing rendering commands (hardware render start) |
 | 12 | `gpurender_end` | GPU finishes rendering the frame (hardware render complete) |
-| 13 | `virtual_gpurender_start` | Synthetic marker = `gpurender_end – GPU active time` (derived marker for visualization or timeband graphs) |
 
 **Notes:**
 - Reflex provides **driver-level and GPU-level telemetry** inserted below the graphics API, allowing precise capture of CPU, driver, and GPU timing stages.  
