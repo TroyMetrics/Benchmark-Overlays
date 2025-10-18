@@ -40,10 +40,6 @@ The new **Latency Module** has been completely redesigned for [v1.13](https://gi
 
 >  🧙‍♂️ See Also: The [Latency Module Information](#%EF%B8%8F-latency-module-information) section for more details and setup.
 
-<p align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Latency_Module_v2.gif">
-</p>
-
 ## 🔺 Frame Gen Indicator
 A subtle blinking icon now appears within the **Framerate Module** next to **FPS** when **Frame Gen** is enabled.  
 <p align="center">
