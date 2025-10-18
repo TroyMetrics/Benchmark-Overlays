@@ -34,11 +34,10 @@ This fully dynamic layout automatically adjusts for 4 to 24-core CPUs, detecting
 The new **Latency Module** has been completely redesigned for [v1.13](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.13) to deliver accurate latency telemetry using both **NVIDIA Reflex** and **PresentMon** data sources.  
 
 * Automatically prioritizes **Reflex telemetry** when available (NVIDIA GPUs), with **PresentMon** fallback for all other GPUs — ensuring consistent latency metrics across any system.  
-* Displays **GPU Render Latency** and **Frame Pipeline Latency** (Simulation → GPU/Display) in real time, providing a detailed look into both CPU and GPU frame processing stages.  
-* Latency values are **clamped at 999.9 ms** to maintain aesthetic consistency and prevent overflow during momentary spikes (e.g., when Alt-Tabbing or loading between scenes).  
+* Displays **GPU Render Latency** and **Frame Pipeline Latency** (Simulation → Render/Display) in real time, providing a detailed look into both CPU and GPU frame processing stages.  
 * Uses the latency functions: `reflexlatency(markerFrom, markerTo)` and `presentmonlatency(markerFrom, markerTo)`.  
 
->  🧙‍♂️ See Also: The [Latency Module Information](#%EF%B8%8F-latency-module-information) section for more details and setup.
+>  🧙‍♂️ See Also: The [Latency Module Information](#%EF%B8%8F-latency-module-information) section for more details.
 
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Latency_Module_New.gif">
