@@ -31,7 +31,7 @@ This fully dynamic layout automatically adjusts for 4 to 24-core CPUs, detecting
 
 > 📝 Note: For automatic detection to function, the **CPU # T0 Effective Clock** sensors must remain **visible (not hidden)** inside HWiNFO.
 
-> 🧙‍♂️ See Also: The [Latency Module Information](#%EF%B8%8F-latency-module-information) section for more details.
+> 🧙‍♂️ See Also: The [📊 CPU Barchart Automatic Detection](#-cpu-barchart-automatic-detection) section for more details.
 
 ## 🕹️ Latency Module (Reflex + PresentMon Integration)
 
@@ -489,13 +489,13 @@ if(validate("CPU Core Count Override"),"CPU Core Count Override","CPU Core 0"+"C
 If you prefer manual control—or if you don’t use HWiNFO—you can override automatic detection using the  
 **`CPU Core Count Override`** sensor to directly choose which barchart the overlay displays.
 
-> 🧙‍♂️ See Also: The **[CPU Core Count Override Sensor](#cpu-core-count-override)** section for more details.
+> 🧙‍♂️ See Also: The **[📊 CPU Core Count Override Sensor](#-cpu-core-count-override-sensor)** section for more details.
 
 If the overlay cannot determine your system’s physical CPU core count, it will display the following message:
 
 **“HWiNFO not running: Start HWiNFO or set CPU Core Count Override.”**
 
-This message only appears when **HWiNFO is offline or not sending sensor data through Shared Memory**, *and* the user has **not** manually set a value in the **CPU Core Count Override** sensor.  
+This message only appears when **HWiNFO is offline or not sending sensor data through Shared Memory**, *and* the user has **not** manually set a value in the **[CPU Core Count Override](#-cpu-core-count-override-sensor)** sensors Correction formula.  
 Once HWiNFO is running—or an override value is provided—the barchart will display normally.
 
 <p align="center">
