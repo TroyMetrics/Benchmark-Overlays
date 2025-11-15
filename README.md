@@ -494,11 +494,12 @@ If the overlay cannot determine your system’s physical CPU core count, it will
 **“HWiNFO not running: Start HWiNFO or set CPU Core Count Override.”**
 
 This message only appears when **HWiNFO is offline or not sending sensor data through Shared Memory**, *and* the user has **not** manually set a value in the **[CPU Core Count Override](#-cpu-core-count-override-sensor)** sensors Correction formula.  
-Once HWiNFO is running—or an override value is provided—the barchart will display normally.
 
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/CPU_Barchart_Info_Message.png?raw=true">
 </p>
+
+Once HWiNFO is running—or an override value is provided—the barchart will display normally.
 
 ## 📊 CPU Core Count Override Sensor
 
