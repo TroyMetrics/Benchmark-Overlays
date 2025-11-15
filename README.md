@@ -467,11 +467,20 @@ The Data source functions `presentmonlatency(markerFrom, markerTo)` and `reflexl
   - **FramePipelineLatency (Simulation → GPU Render End):** `reflexlatency(1,12)`  
 - With Reflex Analyzer hardware, marker `0` expands measurement to include **input latency** and **display response**, enabling complete *click-to-photon* analysis.  
   - If you have compatible Analyzer hardware, you can modify your formula to begin at marker `0` to capture **true end-to-end latency**.
+- 🎉 You're All Set!
 
-# 🎉 You're All Set!
-Enjoy benchmarking with **TroyMetrics Benchmark Overlays**!  
+## ❤️ A Note to the Community
 
-If you have any questions or feedback, feel free to open an issue or contact me via GitHub. I’m happy to help.
+This overlay was built with the goal of creating a fully adaptable performance overlay that works seamlessly across a wide range of hardware — from 720p laptops to high-end 4K benchmark rigs.
+
+It is designed to automatically adjust to your system with minimal manual tweaking, especially when paired with HWiNFO for real-time hardware detection. As a full-time service tech with limited hardware on hand, I rely heavily on community feedback to keep improving the project.
+
+If you encounter any issues — CPU core ordering, overlapping layers, incorrect detection logic, missing support for a specific CPU, or anything that feels off — please open an Issue on GitHub. Screenshots are incredibly helpful and greatly speed up fixes.
+
+Your reports and suggestions directly help this project grow.
+Thank you for testing, supporting, and helping make the TroyMetrics Benchmark Overlay better for everyone. 🙏
+
+🚀 Enjoy benchmarking with **TroyMetrics Benchmark Overlays**!  
 
 ## ☕ **Enjoying the overlay?**  
 **Fuel my coffee addiction — [support me with a virtual latte!](https://buymeacoffee.com/justinraabe)**
