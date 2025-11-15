@@ -515,7 +515,7 @@ To use it, open **Data sources** **`Ctrl + D`** and enter your physical CPU 
 
 > 📝 Note: For **automatic CPU core detection** (HWiNFO), the Correction formula must stay **empty**.
 
-## ❤️ A Note to the Community
+# ❤️ A Note to the Community
 
 This overlay was built with the goal of creating a fully adaptable performance overlay that works seamlessly across a wide range of hardware — from 720p laptops to high-end 4K benchmark rigs.
 
