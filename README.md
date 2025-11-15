@@ -29,8 +29,6 @@ This fully dynamic layout automatically adjusts for 4 to 24-core CPUs, detecting
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Dynamic_CPU_Core_Barchart.gif?raw=true" width="75%">
 </p>
 
-> 📝 Note: For automatic detection to function, the **CPU # T0 Effective Clock** sensors must remain **visible (not hidden)** inside HWiNFO.
-
 > 🧙‍♂️ See Also: The [📊 CPU Barchart Automatic Detection](#-cpu-barchart-automatic-detection) section for more details.
 
 ## 🕹️ Latency Module (Reflex + PresentMon Integration)
