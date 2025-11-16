@@ -9,7 +9,7 @@
 
 # 📖 Overview
 
-A high-precision performance monitoring overlay built for enthusiasts, content creators, and system tuners who demand both accuracy and visual clarity. Designed for **RTSS (RivaTuner Statistics Server)** and powered by **HWiNFO**, it unifies dozens of advanced metrics into a single cohesive display — optimized for benchmarking, gameplay, and system analysis.
+A high-precision, **adaptive** performance overlay for RTSS that automatically aligns with your system’s hardware configuration—covering CPU core utilization, GPU telemetry, latency, frametime, power delivery, and more. Designed for benchmarkers, gamers, system builders, enthusiasts, and content creators, it unifies dozens of advanced metrics into a single clean, cohesive display. Powered by RTSS and HWiNFO64, the overlay is optimized for accurate, real-time analysis across resolutions from 720p to 4K, whether for gameplay monitoring or formal benchmarking workflows.
 
 <div align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/2-Fan_Preview.gif?raw=true" style="max-height: 800px; width: auto;">
