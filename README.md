@@ -518,7 +518,7 @@ To use it, open **Data sources** **`Ctrl + D`** and enter your physical CPU 
 
 This overlay was built with the goal of creating a fully adaptable performance overlay that works seamlessly across a wide range of hardware — from 720p laptops to high-end 4K benchmark rigs.
 
-It is designed to automatically adjust to your system with minimal manual tweaking, especially when paired with HWiNFO for real-time hardware detection. As a full-time service tech with limited hardware on hand, I rely heavily on community feedback to keep improving the project.
+It is designed to automatically adjust to your system with minimal manual tweaking, especially when paired with HWiNFO for real-time hardware detection. As a full-time service tech with limited PC hardware on hand, I rely heavily on community feedback to keep improving the project.
 
 If you encounter any issues — CPU core ordering, overlapping layers, incorrect detection logic, missing support for a specific CPU, or anything that feels off — please open an Issue on GitHub. Screenshots are incredibly helpful and greatly speed up fixes.
 
