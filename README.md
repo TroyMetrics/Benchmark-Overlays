@@ -473,13 +473,13 @@ The Data source functions `presentmonlatency(markerFrom, markerTo)` and `reflexl
 
 ## 📊 CPU Barchart Automatic Detection
 
-The overlay now detects physical CPU cores using HWiNFO’s **“Core # T0 Effective Clock”** sensors (found under **Core Effective Clocks**).  
-These sensors map **1:1 to real physical cores** on both AMD and Intel hybrid CPUs, ensuring accurate P-core and E-core detection and preventing incorrect barchart selection.
+The overlay now detects physical CPU cores using HWiNFO’s **“Core # T0 Effective Clock”** sensors for AMD and **“P-core # T0 Effective Clock”** and **"E-core # T0 Effective Clock"** sensors for Intel (found under **Core Effective Clocks**).  
+These sensors map **1:1 to real physical cores** on both AMD and Intel CPUs, ensuring accurate CPU core count detection for Intel and preventing incorrect barchart selection.
 
 The sensor **`PhysicalCoreCount`** uses the formula below to determine how many physical cores are valid and automatically selects the correct CPU Usage Barchart:
 
 ```text
-if(validate("CPU Core Count Override"),"CPU Core Count Override","CPU Core 0"+"CPU Core 1"+"CPU Core 2"+"CPU Core 3"+"CPU Core 4"+"CPU Core 5"+"CPU Core 6"+"CPU Core 7"+"CPU Core 8"+"CPU Core 9"+"CPU Core 10"+"CPU Core 11"+"CPU Core 12"+"CPU Core 13"+"CPU Core 14"+"CPU Core 15"+"CPU Core 16"+"CPU Core 17"+"CPU Core 18"+"CPU Core 19"+"CPU Core 20"+"CPU Core 21"+"CPU Core 22"+"CPU Core 23"+"CPU Core 24"+"CPU Core 25"+"CPU Core 26"+"CPU Core 27"+"CPU Core 28"+"CPU Core 29"+"CPU Core 30"+"CPU Core 31")
+if(validate("CPU Core Count Override"),"CPU Core Count Override",(C0+C1+C2+C3+C4+C5+C6+C7+C8+C9+C10+C11+C12+C13+C14+C15+C16+C17+C18+C19+C20+C21+C22+C23+C24+C25+C26+C27+C28+C29+C30+C31+P0+P1+P2+P3+P4+P5+P6+P7+P8+P9+P10+P11+P12+P13+P14+P15+P16+P17+P18+P19+P20+P21+P22+P23+E0+E1+E2+E3+E4+E5+E6+E7+E8+E9+E10+E11+E12+E13+E14+E15+E16+E17+E18+E19+E20+E21+E22+E23))
 ```
 
 > 📝 **Important:** For automatic detection to function, all **“Core # T0 Effective Clock”** sensors must remain **visible (not hidden)** in HWiNFO64.
