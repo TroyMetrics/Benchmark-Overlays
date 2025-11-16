@@ -482,7 +482,7 @@ The sensor **`PhysicalCoreCount`** uses the formula below to determine how many 
 if(validate("CPU Core Count Override"),"CPU Core Count Override",(C0+C1+C2+C3+C4+C5+C6+C7+C8+C9+C10+C11+C12+C13+C14+C15+C16+C17+C18+C19+C20+C21+C22+C23+C24+C25+C26+C27+C28+C29+C30+C31+P0+P1+P2+P3+P4+P5+P6+P7+P8+P9+P10+P11+P12+P13+P14+P15+P16+P17+P18+P19+P20+P21+P22+P23+E0+E1+E2+E3+E4+E5+E6+E7+E8+E9+E10+E11+E12+E13+E14+E15+E16+E17+E18+E19+E20+E21+E22+E23))
 ```
 
-> 📝 **Important:** For automatic detection to function, all **“Core # T0 Effective Clock”** sensors must remain **visible (not hidden)** in HWiNFO64.
+> 📝 **Important:** For automatic detection to function, all corresponding **“P/E/Core # T0 Effective Clock”** sensors must remain **visible (not hidden)** in HWiNFO64.
 
 If you prefer manual control—or if you don’t use HWiNFO—you can override automatic detection using the  
 **`CPU Core Count Override`** sensor to directly choose which barchart the overlay displays.
