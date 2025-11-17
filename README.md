@@ -18,9 +18,9 @@ A high-precision, **adaptive** performance overlay for RTSS that automatically a
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/3-Fan_Preview.gif?raw=true" style="max-height: 800px; width: auto;">
 </div><br><br>
 
-**Includes 26 Presets:** Benchmark 3-Fan Power Detector, Benchmark 2-Fan, Benchmark 3-Fan, 12VHPWR Power Detector (Power Detector Only), 3 Presets with Latency Modules, 7 [Color Presets](#-color-presets), 11 presets for 1080p, and the new [Color Mod 2-Tone](#-color-mod-2-tone-color-adjustment) preset!
-
 # 💎 Features
+
+Quick Links: [🧠 System Monitoring](#-system-monitoring), [📊 Adaptive CPU Barchart](#-adaptive-cpu-barchart), [🕹️ Latency Module](#%EF%B8%8F-latency-module-reflex--presentmon-integration), [🔺 Frame Gen Indicator](#-frame-gen-indicator), [📈 FrameTime Graph](#-frametime-graph--stutter-detection), [🌡️ Thermal Throttle Detection](#%EF%B8%8F-thermal-throttle-detection), [⚡️ Power Detector Module](#%EF%B8%8F-power-detector-module-for-supported-gpus), [🗃️ Included Presets](#-included-presets), [🧩 Organized Layers](#-organized-layer-structure)
 
 ## 🧠 System Monitoring
 Displays all standard real-time performance metrics including **1% lows**, **average**, and **current FPS**, as well as **CPU and GPU temperatures**, **clock speeds**, **utilization**, **VRAM and system RAM usage**, **latency**, and **power readings** — providing a complete overview of system performance at a glance.
@@ -125,7 +125,9 @@ Designed for **GPUs equipped with 12VHPWR per-pin telemetry**, such as the **ASU
 
 <br><br>
 
-## 🌈 Color Presets
+## 🗃️ Included Presets
+
+### 🌈 Color Presets
 
 <div align="center">
   <a href="https://youtu.be/v7VLgzUj9RE">
@@ -133,9 +135,19 @@ Designed for **GPUs equipped with 12VHPWR per-pin telemetry**, such as the **ASU
   </a>
 </div><br><br>
 
-Color presets include: **🟩 Ghostly Green & White (original)**, **🟩 Pure Green**, **🟦 Electric Blue**, **🟨 Bright Yellow**, **🩷 Hot Pink**, **🟧 Pure Orange**, **🟩 Ghostly Green**, and **🌈 Rainbow** (introduced in [v1.10](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.10))  
+Color presets include: **🟩 Ghostly Green & White (original)**, **🎨 Color Mod 2-Tone**, **🟩 Pure Green**, **🟦 Electric Blue**, **🟨 Bright Yellow**, **🩷 Hot Pink**, **🟧 Pure Orange**, **🟩 Ghostly Green**, and **🌈 Rainbow** (introduced in [v1.10](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.10))  
 
-> ➡️ See also: **[How to adjust the rainbow animation speed](#-rainbow-animation-speed-sensor-control)**
+> 🧙‍♂️ Learn **[how to adjust the rainbow animation speed](#-rainbow-animation-speed-sensor-control)**
+
+### 🎨 Color Mod 2-Tone
+
+<p align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Color_Mod_2-Tone_Preview.png?raw=true">
+</p>
+
+The Color **Mod 2-Tone** presets let you transform the overlay’s accent color instantly. Just set a value from **0–100** in the **Color** sensor's Correction formula field and the entire overlay shifts to your chosen hue! — no manual layer editing required. 🪄
+
+> 🧙‍♂️ Learn **[how to customize the Color Mod 2-Tone preset](#-color-mod-2-tone-color-adjustment)**
 
 <br><br>
 
@@ -144,7 +156,7 @@ Color presets include: **🟩 Ghostly Green & White (original)**, **🟩 Pure Gr
 With the layer restructure and naming improvements introduced in [v1.8](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.8), user customization is now simpler and more organized than ever.  
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Organized_Layers.gif?raw=true"><br><br>
+  <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Organized_Layers.gif?raw=true">
 </p>
 
 🎨 Got your own design or remix? Share it in the [Guru3D Forum](https://forums.guru3d.com/threads/benchmark-overlays-by-troymetrics-power-detector-module.456668/) — the best ones may even get featured in the official download! 🔥
@@ -412,7 +424,7 @@ This example shows how to set a CPU speed gauge threshold of 0 to 6 GHz (this is
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/User_Defined_Thresholds_CPU_Speed_Gauge.jpg?raw=true">
 </p>
 
-> 📝 Note: This step must be done for both the needle, and the fill layers so that they match.
+> 🧙‍♂️ This step must be done for both the needle, and the fill layers so that they match.
 
 ---
 
@@ -513,12 +525,12 @@ The sensor **`PhysicalCoreCount`** uses the formula below to determine how many 
 if(validate("CPU Core Count Override"),"CPU Core Count Override",(C0+C1+C2+C3+C4+C5+C6+C7+C8+C9+C10+C11+C12+C13+C14+C15+C16+C17+C18+C19+C20+C21+C22+C23+C24+C25+C26+C27+C28+C29+C30+C31+P0+P1+P2+P3+P4+P5+P6+P7+P8+P9+P10+P11+P12+P13+P14+P15+P16+P17+P18+P19+P20+P21+P22+P23+E0+E1+E2+E3+E4+E5+E6+E7+E8+E9+E10+E11+E12+E13+E14+E15+E16+E17+E18+E19+E20+E21+E22+E23))
 ```
 
-> 📝 **Important:** For automatic detection to function, all corresponding **“P/E/Core # T0 Effective Clock”** sensors must remain **visible (not hidden)** in HWiNFO64.
+> 🧙‍♂️ For automatic detection to function, all corresponding **“P/E/Core # T0 Effective Clock”** sensors must remain **visible (not hidden)** in HWiNFO64.
 
 If you prefer manual control—or if you don’t use HWiNFO—you can override automatic detection using the  
 **`CPU Core Count Override`** sensor to directly choose which barchart the overlay displays.
 
-> 🧙‍♂️ See Also: The **📊 CPU Core Count Override Sensor** section for more details.
+> 🧙‍♂️ See Also: The **[📊 CPU Core Count Override Sensor](#-cpu-core-count-override-sensor)** section for more details.
 
 ---
 
@@ -536,21 +548,18 @@ To use it, open **Data sources (`Ctrl + D`)** and enter your physical CPU core c
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/CPU_Core_Count_Override_Sensor.png?raw=true">
 </p>
 
-> 📝 Note: For **automatic CPU core detection** (HWiNFO), the Correction formula must stay **empty**.
+> 📝 Note: For **Automatic CPU Core Detection** (HWiNFO), the Correction formula must remain **empty**.
 
 ---
 
 ## ℹ️ CPU Barchart Status Message
 
-This message appears when the overlay cannot determine your system’s physical core count. It is shown only when:
+The status message **“HWiNFO not running: Start HWiNFO or set CPU Core Count Override.”** appears when the overlay cannot determine your system’s physical core count. It is shown only when the following it true:
 
 - **HWiNFO64 is not running** / **Shared Memory Support** is disabled  
-- **No value has been assigned** in the **CPU Core Count Override** sensor  
+- **No value has been assigned** in the **[CPU Core Count Override Sensor](#-cpu-core-count-override-sensor)** sensor  
 
-When these conditions are met, the overlay is unable to generate a CPU barchart.  
-It temporarily displays this status message to prompt the user to either launch HWiNFO64 or manually assign their CPU core count:
-
-**“HWiNFO not running: Start HWiNFO or set CPU Core Count Override.”**
+It displays this status message to prompt the user to either launch HWiNFO64 (or enable Shared Memory Support) or manually assign their CPU core count using the **[CPU Core Count Override Sensor](#-cpu-core-count-override-sensor)**
 
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/CPU_Barchart_Info_Message.png?raw=true">
