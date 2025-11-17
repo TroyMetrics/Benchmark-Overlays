@@ -11,119 +11,29 @@
 
 A high-precision, **adaptive** performance overlay for RTSS that automatically aligns with your system’s hardware configuration—covering CPU & GPU telemetry, latency, frametime, power delivery, and more. Designed for benchmarkers, gamers, system builders, enthusiasts, and content creators, it unifies dozens of advanced metrics into a single clean, cohesive display. Powered by RTSS and HWiNFO64, the overlay is optimized for accurate, real-time analysis across resolutions from 720p to 4K, whether for gameplay monitoring or formal benchmarking workflows.
 
-<br><br>
-
 <div align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/2-Fan_Preview.gif?raw=true" style="max-height: 800px; width: auto;">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/3-Fan_Preview.gif?raw=true" style="max-height: 800px; width: auto;">
-</div><br><br>
+</div>
 
 # 💎 Features
 
-Quick Links: [🧠 System Monitoring](#-system-monitoring), [📊 Adaptive CPU Barchart](#-adaptive-cpu-barchart), [🕹️ Latency Module](#%EF%B8%8F-latency-module-reflex--presentmon-integration), [🔺 Frame Gen Indicator](#-frame-gen-indicator), [📈 FrameTime Graph](#-frametime-graph--stutter-detection), [🌡️ Thermal Throttle Detection](#%EF%B8%8F-thermal-throttle-detection), [⚡️ Power Detector Module](#%EF%B8%8F-power-detector-module-for-supported-gpus), [🗃️ Included Presets](#%EF%B8%8F-included-presets), [🧩 Organized Layers](#-organized-layer-structure)
+<p align="center">
+  <a href="#-system-monitoring">🧠 System Monitoring</a>,
+  <a href="#%EF%B8%8F-included-presets">🗃️ Included Presets</a>,
+  <a href="#-adaptive-cpu-barchart">📊 Adaptive CPU Barchart</a>,
+  <a href="#%EF%B8%8F-latency-module-reflex--presentmon-integration">🕹️ Latency Module</a>,
+  <a href="#-frame-gen-indicator">🔺 Frame Gen Indicator</a>,
+  <a href="#-frametime-graph--stutter-detection">📈 FrameTime Graph</a>,
+  <a href="#%EF%B8%8F-thermal-throttle-detection">🌡️ Thermal Throttle Detection</a>,
+  <a href="#%EF%B8%8F-power-detector-module-for-supported-gpus">⚡ Power Detector Module</a>,
+  <a href="#-organized-layer-structure">🧩 Organized Layers</a>
+</p>
 
 ## 🧠 System Monitoring
 Displays all standard real-time performance metrics including **1% lows**, **average**, and **current FPS**, as well as **CPU and GPU temperatures**, **clock speeds**, **utilization**, **VRAM and system RAM usage**, **latency**, and **power readings** — providing a complete overview of system performance at a glance.
 
-<br><br>
-
-## 📊 Adaptive CPU Barchart
-This fully dynamic layout automatically adjusts for 4 to 24-core CPUs, detecting and displaying only physical cores in properly ordered CPU bar charts. On Intel systems, Performance (P) cores are shown first, followed by Efficiency (E) cores. On AMD, cores are displayed in logical, physical order — providing an accurate and readable view of real CPU utilization during gameplay or stress testing.  
-<p align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Dynamic_CPU_Core_Barchart.gif?raw=true" width="75%">
-</p>
-
-> 🧙‍♂️ See Also: The [📊 CPU Barchart Automatic Detection](#-cpu-barchart-automatic-detection) section for more details.
-
-<br><br>
-
-## 🕹️ Latency Module (Reflex + PresentMon Integration)
-
-The new **Latency Module** has been completely redesigned for [v1.13](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.13) to deliver accurate latency telemetry using both **NVIDIA Reflex** and **PresentMon** data sources.  
-
-* Automatically prioritizes **Reflex telemetry** when available (NVIDIA GPUs), with **PresentMon** fallback for all other GPUs — ensuring consistent latency metrics across any system.  
-* Displays **GPU Render Latency** and **Frame Pipeline Latency** (Simulation → Render/Display) in real time, providing a detailed look into both CPU and GPU frame processing stages.  
-* Uses the latency functions: `reflexlatency(markerFrom, markerTo)` and `presentmonlatency(markerFrom, markerTo)`.  
-
-> 🧙‍♂️ See Also: The [Latency Module Information](#%EF%B8%8F-latency-module-information) section for more details.
-
-<p align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Latency_Module_New.gif?raw=true">
-</p>
-
-<br><br>
-
-## 🔺 Frame Gen Indicator
-A subtle blinking icon now appears within the **Framerate Module** next to **FPS** when **Frame Gen** is enabled.  
-<p align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/FG_Indicator_Icon.gif?raw=true">
-</p>  
-
-<br><br>
-
-## 📈 FrameTime Graph & Stutter Detection
-The **FrameTime Module** provides a real-time visualization of frame pacing, displaying frame times between **0–50 ms** to ensure smooth gameplay analysis. It’s designed to make stutter events easily identifiable during benchmarking or in-game monitoring.
-
-* **Dynamic Stutter Dectection** graph flashes red when a stutter is detected by comparing the current frametime to a **sliding average** (×2 threshold).  
-* Includes a **Spike Indicator**, a clean white bar that travels in sync with the frametime graph to visualize frame time spikes (≥ 66.66 ms).
-* Adapts dynamically with **Frame Gen**, ensuring accurate frametime reporting while **frame-gen** is enabled.  
-  ‣ **FrameGen ON:** switches the graph to display **output-side (display) sensors** eliminating the weird “fat” or “jagged” frametime patterns that older overlays produced when frame generation was active.  
-  ‣ **FrameGen OFF:** Operates in classic mode, monitoring the standard game-side frame pacing.
-  > 📝 Note: Frametime metrics with **Frame Gen** may lag by ~3 seconds due to PresentMon limitations.  
-<p align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/FT_Spike_Indicator.gif?raw=true">
-</p>  
-
-<br><br>
-
-## 🌡️ Thermal Throttle Detection
-
-Each hardware vendor provides its own **thermal throttle indicators** in **HWiNFO**. These sensors reveal when the CPU or GPU physically reduces clock speed to prevent overheating. The overlay merges those readings into two unified RTSS sensors — `GPUThrottle` and `CPUThrottle` — for consistent detection across all platforms.
-
-**🧠 Detection Sources:**  
-
-<div align="center">
-
-| **Category** | **Vendor** | **HWiNFO Sensor** |
-|:-------------:|:-----------:|:------------------|
-| GPU 🖥️| NVIDIA | Performance Limit – Thermal |
-| GPU 🖥️| AMD | GPU VR GFX Thermal Limit |
-| GPU 🖥️| Intel | Hardware Limit ||
-| CPU 🔲| Intel | Package / Ring Thermal Throttling |
-| CPU 🔲| AMD | Thermal Throttling (PROCHOT EXT) |
-
-</div>
-
-* When **no throttling** is detected → the standard CPU/GPU name is displayed.  
-* When **throttling is detected** → the module text changes to a **flashing “GPU/CPU THROTTLE”** alert (as shown below).  
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Thermal_Throttle_Detection_GPU.gif?raw=true">
-  <br>
-  <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Thermal_Throttle_Detection_CPU.gif?raw=true">
-</p>
-
-<br><br>
-
-## ⚡️ Power Detector Module (for supported GPUs)
-<p align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Preview.gif?raw=true">
-</p>
-
-Designed for **GPUs equipped with 12VHPWR per-pin telemetry**, such as the **ASUS ROG Astral GeForce RTX 5090**, this module provides real-time electrical insight directly within the overlay.  
-
-* Displays **individual 12VHPWR pin amperage** in real time.  
-* Calculates and displays **total current draw** and **pin balance percentage**.  
-* Uses **status indicator icons** to show **normal, warning, and danger** states.  
-* Alerts the user to unsafe conditions such as  
-  ‣ **Excessive current** (≥ 9.2 A per pin)  
-  ‣ **Dropped pins** (≈ 0 A)  
-  ‣ **Power Imbalance** across all 6 pins.  
-* Enables **early detection** of potential cable or connector faults before failure occurs.
-
-> ➡️ Details and full safety information are outlined within the ⚡[Power Detector Features & Warnings](#%EF%B8%8F-power-detector-features--warnings) section.
-
-<br><br>
+---
 
 ## 🗃️ Included Presets
 
@@ -149,7 +59,105 @@ The Color **Mod 2-Tone** presets let you transform the overlay’s accent color 
 
 > 🧙‍♂️ Learn **[how to customize the Color Mod 2-Tone preset](#-color-mod-2-tone-color-adjustment)**
 
-<br><br>
+---
+
+## 📊 Adaptive CPU Barchart
+This fully dynamic layout automatically adjusts for 4 to 24-core CPUs, detecting and displaying only physical cores in properly ordered CPU bar charts. On Intel systems, Performance (P) cores are shown first, followed by Efficiency (E) cores. On AMD, cores are displayed in logical, physical order — providing an accurate and readable view of real CPU utilization during gameplay or stress testing.  
+<p align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Dynamic_CPU_Core_Barchart.gif?raw=true" width="75%">
+</p>
+
+> 🧙‍♂️ See Also: The [📊 CPU Barchart Automatic Detection](#-cpu-barchart-automatic-detection) section for more details.
+
+---
+
+## 🕹️ Latency Module (Reflex + PresentMon Integration)
+
+The new **Latency Module** has been completely redesigned for [v1.13](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.13) to deliver accurate latency telemetry using both **NVIDIA Reflex** and **PresentMon** data sources.  
+
+* Automatically prioritizes **Reflex telemetry** when available (NVIDIA GPUs), with **PresentMon** fallback for all other GPUs — ensuring consistent latency metrics across any system.  
+* Displays **GPU Render Latency** and **Frame Pipeline Latency** (Simulation → Render/Display) in real time, providing a detailed look into both CPU and GPU frame processing stages.  
+* Uses the latency functions: `reflexlatency(markerFrom, markerTo)` and `presentmonlatency(markerFrom, markerTo)`.  
+
+> 🧙‍♂️ See Also: The [Latency Module Information](#%EF%B8%8F-latency-module-information) section for more details.
+
+<p align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Latency_Module_New.gif?raw=true">
+</p>
+
+---
+
+## 🔺 Frame Gen Indicator
+A subtle blinking icon now appears within the **Framerate Module** next to **FPS** when **Frame Gen** is enabled.  
+<p align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/FG_Indicator_Icon.gif?raw=true">
+</p>  
+
+---
+
+## 📈 FrameTime Graph & Stutter Detection
+The **FrameTime Module** provides a real-time visualization of frame pacing, displaying frame times between **0–50 ms** to ensure smooth gameplay analysis. It’s designed to make stutter events easily identifiable during benchmarking or in-game monitoring.
+
+* **Dynamic Stutter Dectection** graph flashes red when a stutter is detected by comparing the current frametime to a **sliding average** (×2 threshold).  
+* Includes a **Spike Indicator**, a clean white bar that travels in sync with the frametime graph to visualize frame time spikes (≥ 66.66 ms).
+* Adapts dynamically with **Frame Gen**, ensuring accurate frametime reporting while **frame-gen** is enabled.  
+  ‣ **FrameGen ON:** switches the graph to display **output-side (display) sensors** eliminating the weird “fat” or “jagged” frametime patterns that older overlays produced when frame generation was active.  
+  ‣ **FrameGen OFF:** Operates in classic mode, monitoring the standard game-side frame pacing.
+  > 📝 Note: Frametime metrics with **Frame Gen** may lag by ~3 seconds due to PresentMon limitations.  
+<p align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/FT_Spike_Indicator.gif?raw=true">
+</p>  
+
+---
+
+## 🌡️ Thermal Throttle Detection
+
+Each hardware vendor provides its own **thermal throttle indicators** in **HWiNFO**. These sensors reveal when the CPU or GPU physically reduces clock speed to prevent overheating. The overlay merges those readings into two unified RTSS sensors — `GPUThrottle` and `CPUThrottle` — for consistent detection across all platforms.
+
+**🧠 Detection Sources:**  
+
+<div align="center">
+
+| **Category** | **Vendor** | **HWiNFO Sensor** |
+|:-------------:|:-----------:|:------------------|
+| GPU 🖥️| NVIDIA | Performance Limit – Thermal |
+| GPU 🖥️| AMD | GPU VR GFX Thermal Limit |
+| GPU 🖥️| Intel | Hardware Limit ||
+| CPU 🔲| Intel | Package / Ring Thermal Throttling |
+| CPU 🔲| AMD | Thermal Throttling (PROCHOT EXT) |
+
+</div>
+
+* When **no throttling** is detected → the standard CPU/GPU name is displayed.  
+* When **throttling is detected** → the module text changes to a **flashing “GPU/CPU THROTTLE”** alert (as shown below).  
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Thermal_Throttle_Detection_GPU.gif?raw=true" width="50%">
+  <br>
+  <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Thermal_Throttle_Detection_CPU.gif?raw=true" width="50%">
+</p>
+
+---
+
+## ⚡️ Power Detector Module (for supported GPUs)
+<p align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Preview.gif?raw=true">
+</p>
+
+Designed for **GPUs equipped with 12VHPWR per-pin telemetry**, such as the **ASUS ROG Astral GeForce RTX 5090**, this module provides real-time electrical insight directly within the overlay.  
+
+* Displays **individual 12VHPWR pin amperage** in real time.  
+* Calculates and displays **total current draw** and **pin balance percentage**.  
+* Uses **status indicator icons** to show **normal, warning, and danger** states.  
+* Alerts the user to unsafe conditions such as  
+  ‣ **Excessive current** (≥ 9.2 A per pin)  
+  ‣ **Dropped pins** (≈ 0 A)  
+  ‣ **Power Imbalance** across all 6 pins.  
+* Enables **early detection** of potential cable or connector faults before failure occurs.
+
+> ➡️ Details and full safety information are outlined within the ⚡[Power Detector Features & Warnings](#%EF%B8%8F-power-detector-features--warnings) section.
+
+---
 
 ## 🧩 Organized Layer Structure
 
@@ -476,7 +484,7 @@ The Data source functions `presentmonlatency(markerFrom, markerTo)` and `reflexl
 | 6 | `gpurender_end` | GPU finishes rendering — frame ready for presentation |
 | 8 | `display` | Display scan-out / frame becomes visible on screen |
 
-**📝 Notes:**
+**🧙‍♂️ Notes:**
 - PresentMon collects **software-level API timestamps** (DXGI/D3D12/Vulkan) directly from the graphics stack.  
 - Default latency formulas used in this overlay:
   - **GpuRenderLatency (GPU Render Latency):** `presentmonlatency(5,6)`  
@@ -504,7 +512,7 @@ The Data source functions `presentmonlatency(markerFrom, markerTo)` and `reflexl
 | 11 | `gpurender_start` | GPU begins executing rendering commands (hardware render start) |
 | 12 | `gpurender_end` | GPU finishes rendering the frame (hardware render complete) |
 
-**📝 Notes:**
+**🧙‍♂️ Notes:**
 - Reflex provides **driver-level and GPU-level telemetry** inserted below the graphics API, allowing precise capture of CPU, driver, and GPU timing stages.  
 - Default latency formulas used in this overlay:
   - **GpuRenderLatency (GPU Render Latency):** `reflexlatency(11,12)`  
@@ -548,7 +556,7 @@ To use it, open **Data sources (`Ctrl + D`)** and enter your physical CPU core c
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/CPU_Core_Count_Override_Sensor.png?raw=true">
 </p>
 
-> 📝 Note: For **Automatic CPU Core Detection** (HWiNFO), the Correction formula must remain **empty**.
+> 🧙‍♂️ For **Automatic CPU Core Detection** (HWiNFO), the Correction formula must remain **empty**.
 
 ---
 
