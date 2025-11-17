@@ -471,7 +471,7 @@ The Data source functions `presentmonlatency(markerFrom, markerTo)` and `reflexl
   - If you have compatible Analyzer hardware, you can modify your formula to begin at marker `0` to capture **true end-to-end latency**.
 - 🎉 You're All Set!
 
-## 📊 CPU Barchart Automatic Detection
+## 🧠 CPU Barchart Automatic Detection
 
 The overlay now detects physical CPU cores using HWiNFO’s **“Core # T0 Effective Clock”** sensors for AMD and **“P-core # T0 Effective Clock”** and **"E-core # T0 Effective Clock"** sensors for Intel (found under **Core Effective Clocks**).  
 These sensors map **1:1 to real physical cores** on both AMD and Intel CPUs, ensuring accurate CPU core count detection for Intel and preventing incorrect barchart selection.
