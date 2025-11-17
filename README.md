@@ -278,7 +278,7 @@ To adjust scaling, simply use the Zoom slider in RTSS to fit your display.
 
 ---
 
-# 🔧 **Optional Settings**
+# 🔧 **Additional Settings & Information**
 
 ## 🌈 Rainbow Animation Speed Sensor Control
 
