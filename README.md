@@ -11,6 +11,8 @@
 
 A high-precision, **adaptive** performance overlay for RTSS that automatically aligns with your system’s hardware configuration—covering CPU & GPU telemetry, latency, frametime, power delivery, and more. Designed for benchmarkers, gamers, system builders, enthusiasts, and content creators, it unifies dozens of advanced metrics into a single clean, cohesive display. Powered by RTSS and HWiNFO64, the overlay is optimized for accurate, real-time analysis across resolutions from 720p to 4K, whether for gameplay monitoring or formal benchmarking workflows.
 
+<br><br>
+
 <div align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/2-Fan_Preview.gif?raw=true" style="max-height: 800px; width: auto;">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/3-Fan_Preview.gif?raw=true" style="max-height: 800px; width: auto;">
@@ -23,6 +25,8 @@ A high-precision, **adaptive** performance overlay for RTSS that automatically a
 ## 🧠 System Monitoring
 Displays all standard real-time performance metrics including **1% lows**, **average**, and **current FPS**, as well as **CPU and GPU temperatures**, **clock speeds**, **utilization**, **VRAM and system RAM usage**, **latency**, and **power readings** — providing a complete overview of system performance at a glance.
 
+<br><br>
+
 ## 📊 Adaptive CPU Barchart
 This fully dynamic layout automatically adjusts for 4 to 24-core CPUs, detecting and displaying only physical cores in properly ordered CPU bar charts. On Intel systems, Performance (P) cores are shown first, followed by Efficiency (E) cores. On AMD, cores are displayed in logical, physical order — providing an accurate and readable view of real CPU utilization during gameplay or stress testing.  
 <p align="center">
@@ -30,6 +34,8 @@ This fully dynamic layout automatically adjusts for 4 to 24-core CPUs, detecting
 </p>
 
 > 🧙‍♂️ See Also: The [📊 CPU Barchart Automatic Detection](#-cpu-barchart-automatic-detection) section for more details.
+
+<br><br>
 
 ## 🕹️ Latency Module (Reflex + PresentMon Integration)
 
@@ -45,11 +51,15 @@ The new **Latency Module** has been completely redesigned for [v1.13](https://gi
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Latency_Module_New.gif?raw=true">
 </p>
 
+<br><br>
+
 ## 🔺 Frame Gen Indicator
 A subtle blinking icon now appears within the **Framerate Module** next to **FPS** when **Frame Gen** is enabled.  
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/FG_Indicator_Icon.gif?raw=true">
 </p>  
+
+<br><br>
 
 ## 📈 FrameTime Graph & Stutter Detection
 The **FrameTime Module** provides a real-time visualization of frame pacing, displaying frame times between **0–50 ms** to ensure smooth gameplay analysis. It’s designed to make stutter events easily identifiable during benchmarking or in-game monitoring.
@@ -63,6 +73,8 @@ The **FrameTime Module** provides a real-time visualization of frame pacing, dis
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/FT_Spike_Indicator.gif?raw=true">
 </p>  
+
+<br><br>
 
 ## 🌡️ Thermal Throttle Detection
 
@@ -91,6 +103,7 @@ Each hardware vendor provides its own **thermal throttle indicators** in **HWiNF
   <img src="https://raw.githubusercontent.com/TroyMetrics/Benchmark-Overlays/refs/heads/main/assets/images/Thermal_Throttle_Detection_CPU.gif?raw=true">
 </p>
 
+<br><br>
 
 ## ⚡️ Power Detector Module (for supported GPUs)
 <p align="center">
@@ -110,6 +123,8 @@ Designed for **GPUs equipped with 12VHPWR per-pin telemetry**, such as the **ASU
 
 > ➡️ Details and full safety information are outlined within the ⚡[Power Detector Features & Warnings](#%EF%B8%8F-power-detector-features--warnings) section.
 
+<br><br>
+
 ## 🌈 Color Presets
 
 <div align="center">
@@ -122,6 +137,8 @@ Color presets include: **🟩 Ghostly Green & White (original)**, **🟩 Pure Gr
 
 > ➡️ See also: **[How to adjust the rainbow animation speed](#-rainbow-animation-speed-sensor-control)**
 
+<br><br>
+
 ## 🧩 Organized Layer Structure
 
 With the layer restructure and naming improvements introduced in [v1.8](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.8), user customization is now simpler and more organized than ever.  
@@ -132,48 +149,7 @@ With the layer restructure and naming improvements introduced in [v1.8](https://
 
 🎨 Got your own design or remix? Share it in the [Guru3D Forum](https://forums.guru3d.com/threads/benchmark-overlays-by-troymetrics-power-detector-module.456668/) — the best ones may even get featured in the official download! 🔥
 
-# ⚡️ Power Detector Features & Warnings
-
-The Power Detector module is designed for GPUs with 12VHPWR per-pin sensors (such as the ASUS ROG Astral RTX 5090). The Power Detector monitors individual pin amperage, calculating total current, pin balance percentage, and visualizing per-pin status. It dynamically alerts users to unsafe conditions like excessive current (≥9.2 A), dropped pins (≈0 A), and imbalance across power rails—enabling early detection of potential cable or connector issues.
-
-<!-- Power Detector Warnings -->
-
-## **🟢 Normal State**
-
-This status icon indicates that all 12VHPWR pins are operating within expected parameters — with amperage levels safely below the maximum rated specification and well-balanced across all pins. No action is required. ✅
-
-<p align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Preview.gif?raw=true">
-</p>
-
 ---
-
-## **🟡 Warning State (Power Imbalance)**
-
-This status icon and alert activates when a significant current disparity is detected between pins (**≤85% power balance**) which may result in hazardous operating conditions under sustained or peak GPU load. The included chart provides a clear visual breakdown of each pin's current deviation from the target or **ideal** per-pin load, calculated dynamically based on total power draw. ⚠️
-
-<p align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Imbalance_Chart.gif?raw=true">
-
----
-
-## **🔴 Danger State (Power Alert)**
-
-This status icon and alert is triggered when one or more 12VHPWR pins exceed the maximum rated specification of **9.2 amps**, or drops to **0 amps**, indicating a critical deviation from safe operating conditions that may result in power delivery failure or hardware damage. 💀
-
-<p align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Power_Alert_Preview.png?raw=true">
-</p>
-
----
-  
-## **➖ Sensors Not Available**
-
-This status icon and notice is shown when **per-pin amperage telemetry is unavailable**, either because the **user’s GPU does not support individual 12VHPWR pin sensors**, or because **HWiNFO64 is not running or not reporting sensor data**. In this state, the Power Detector is unable to monitor power integrity or detect pin-specific anomalies.
-
-<p align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Sensors_NA.gif?raw=true">
-</p>
 
 # 🛠️ Setup & Installation
 
@@ -207,7 +183,7 @@ Before setting up the TroyMetrics Benchmark Overlay, make sure the following sof
 
 ## 🛠️ Setup Instructions
 
-> ⚠️ **Important:** RTSS must remain installed on the **C:\\ drive**. Installing it elsewhere (e.g. D:\\) can cause missing or broken overlay icons due to location-dependent resources. See [Issue #7](https://github.com/TroyMetrics/Benchmark-Overlays/issues/7) for details and a potential work around.
+> ⚠️ **Important:** RTSS must be installed on the **C:\\ drive**. Installing it elsewhere (e.g. D:\\) can cause missing or broken overlay icons due to location-dependent resources. See [Issue #7](https://github.com/TroyMetrics/Benchmark-Overlays/issues/7) for details and a potential work around.
 
 **1. 📦 Extract and Prepare Files**
 - Open the downloaded package: **`TroyMetrics Benchmark Overlays`**
@@ -276,7 +252,56 @@ To adjust scaling, simply use the Zoom slider in RTSS to fit your display.
 🖥️ For 1080p users, select the 1080p presets — these were fully redesigned to deliver crisp visuals and proper scaling at 1080p resolution. <br><br>
 ✅ Your overlay is now fully active and ready to use!
 
+<br><br>
+
 ---
+
+# ⚡️ Power Detector Features & Warnings
+
+The Power Detector module is designed for GPUs with 12VHPWR per-pin sensors (such as the ASUS ROG Astral RTX 5090). The Power Detector monitors individual pin amperage, calculating total current, pin balance percentage, and visualizing per-pin status. It dynamically alerts users to unsafe conditions like excessive current (≥9.2 A), dropped pins (≈0 A), and imbalance across power rails—enabling early detection of potential cable or connector issues.
+
+<!-- Power Detector Warnings -->
+
+## **🟢 Normal State**
+
+This status icon indicates that all 12VHPWR pins are operating within expected parameters — with amperage levels safely below the maximum rated specification and well-balanced across all pins. No action is required. ✅
+
+<p align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Preview.gif?raw=true">
+</p>
+
+<br><br>
+
+## **🟡 Warning State (Power Imbalance)**
+
+This status icon and alert activates when a significant current disparity is detected between pins (**≤85% power balance**) which may result in hazardous operating conditions under sustained or peak GPU load. The included chart provides a clear visual breakdown of each pin's current deviation from the target or **ideal** per-pin load, calculated dynamically based on total power draw. ⚠️
+
+<p align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Imbalance_Chart.gif?raw=true">
+
+<br><br>
+
+## **🔴 Danger State (Power Alert)**
+
+This status icon and alert is triggered when one or more 12VHPWR pins exceed the maximum rated specification of **9.2 amps**, or drops to **0 amps**, indicating a critical deviation from safe operating conditions that may result in power delivery failure or hardware damage. 💀
+
+<p align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Power_Alert_Preview.png?raw=true">
+</p>
+
+<br><br>
+
+## **➖ Sensors Not Available**
+
+This status icon and notice is shown when **per-pin amperage telemetry is unavailable**, either because the **user’s GPU does not support individual 12VHPWR pin sensors**, or because **HWiNFO64 is not running or not reporting sensor data**. In this state, the Power Detector is unable to monitor power integrity or detect pin-specific anomalies.
+
+<p align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Sensors_NA.gif?raw=true">
+</p>
+
+---
+
+<br><br>
 
 # 🔧 **Additional Settings & Information**
 
@@ -326,6 +351,8 @@ Below is an example of the **Rainbow Speed Sensor** configured in RTSS OverlayEd
 
 ![Rainbow Speed Sensor](https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Rainbow_Speed_Sensor.jpg?raw=true)
 
+---
+
 ## 🎨 Color Mod 2-Tone Color Adjustment  
 
 The following settings apply specifically to these presets:  
@@ -348,6 +375,8 @@ A handy Color Reference Chart is included to guide your inner artist:
 > 📝 Example: Setting the **Color** sensor to `50` produces a **Cyan** accent color.  
 
 Perfect for streamers, benchmarkers, and content creators who love to match their overlay quickly with each game’s vibe — all without editing layer properties manually. 🔥
+
+---
 
 ## 👤 Setting User-defined Thresholds
 
@@ -420,6 +449,7 @@ The **Latency Module** includes 4 latency sensors to allow for **PresentMon late
 
 The Data source functions `presentmonlatency(markerFrom, markerTo)` and `reflexlatency(markerFrom, markerTo)` calculate the latency between two defined markers within the current frame, as [explained here](https://forums.guru3d.com/threads/msi-ab-rtss-development-news-thread.412822/page-224#post-6223060). Refer to the charts below for a clearer understanding of how each marker pair is used. In this overlay, the formula "**min(**`presentmonlatency(1,8)`**, 999.9)**" clamps latency values to a maximum of **999.9 ms** purely for aesthetic consistency and to prevent overflow during abnormal spikes.
 
+<br><br>
 
 **🟦 PresentMon Latency Markers**
 
@@ -442,7 +472,7 @@ The Data source functions `presentmonlatency(markerFrom, markerTo)` and `reflexl
 - PresentMon measures **Simulation-to-Display**, but does **not** include driver-internal queueing or scheduling latency.  
 - Marker `0` (`input_sample`) exists for compatibility with Reflex Analyzer hardware but does not output data in standard PresentMon telemetry.
 
----
+<br><br>
 
 **🟩 NVIDIA Reflex Latency Markers**
 
@@ -469,16 +499,17 @@ The Data source functions `presentmonlatency(markerFrom, markerTo)` and `reflexl
   - **FramePipelineLatency (Simulation → GPU Render End):** `reflexlatency(1,12)`  
 - With Reflex Analyzer hardware, marker `0` expands measurement to include **input latency** and **display response**, enabling complete *click-to-photon* analysis.  
   - If you have compatible Analyzer hardware, you can modify your formula to begin at marker `0` to capture **true end-to-end latency**.
-- 🎉 You're All Set!
+
+---
 
 ## 🧠 CPU Barchart Automatic Detection
 
-The overlay now detects physical CPU cores using HWiNFO’s **“Core # T0 Effective Clock”** sensors for AMD and **“P-core # T0 Effective Clock”** and **"E-core # T0 Effective Clock"** sensors for Intel (found under **Core Effective Clocks**).  
-These sensors map **1:1 to real physical cores** on both AMD and Intel CPUs, ensuring accurate CPU core count detection for Intel and preventing incorrect barchart selection.
+The overlay now detects physical CPU cores using HWiNFO’s **“Core # T0 Effective Clock”** sensors for AMD and **“P-core # T0 Effective Clock”** + **“E-core # T0 Effective Clock”** sensors for Intel (found under **Core Effective Clocks**).  
+These sensors map **1:1 to real physical cores**, ensuring accurate detection across AMD and Intel hybrid CPUs and preventing incorrect barchart selection.
 
-The sensor **`PhysicalCoreCount`** uses the formula below to determine how many physical cores are valid and automatically selects the correct CPU Usage Barchart:
+The sensor **`PhysicalCoreCount`** uses the formula below to determine how many physical cores are valid and automatically select the correct CPU Usage Barchart:
 
-```text
+```txt
 if(validate("CPU Core Count Override"),"CPU Core Count Override",(C0+C1+C2+C3+C4+C5+C6+C7+C8+C9+C10+C11+C12+C13+C14+C15+C16+C17+C18+C19+C20+C21+C22+C23+C24+C25+C26+C27+C28+C29+C30+C31+P0+P1+P2+P3+P4+P5+P6+P7+P8+P9+P10+P11+P12+P13+P14+P15+P16+P17+P18+P19+P20+P21+P22+P23+E0+E1+E2+E3+E4+E5+E6+E7+E8+E9+E10+E11+E12+E13+E14+E15+E16+E17+E18+E19+E20+E21+E22+E23))
 ```
 
@@ -487,13 +518,39 @@ if(validate("CPU Core Count Override"),"CPU Core Count Override",(C0+C1+C2+C3+C4
 If you prefer manual control—or if you don’t use HWiNFO—you can override automatic detection using the  
 **`CPU Core Count Override`** sensor to directly choose which barchart the overlay displays.
 
-> 🧙‍♂️ See Also: The **[📊 CPU Core Count Override Sensor](#-cpu-core-count-override-sensor)** section for more details.
+> 🧙‍♂️ See Also: The **📊 CPU Core Count Override Sensor** section for more details.
 
-If the overlay cannot determine your system’s physical CPU core count, it will display the following message:
+---
+
+## 📊 CPU Core Count Override Sensor
+
+A new override sensor now allows users to **manually select which CPU barchart is displayed**.  
+To use it, open **Data sources (`Ctrl + D`)** and enter your physical CPU core count into the **Correction formula**.
+
+📊 Supported charts: **4, 6, 8, 10, 12, 14, 16, 20, 24**.  
+
+> 📝 Note: This feature is intended for users who don’t run HWiNFO or who prefer full manual control.  
+> After entering your core count, be sure to **Save your preset**, so the override persists and you won’t need to re-enter it later.
+
+<p align="center">
+  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/CPU_Core_Count_Override_Sensor.png?raw=true">
+</p>
+
+> 📝 Note: For **automatic CPU core detection** (HWiNFO), the Correction formula must stay **empty**.
+
+---
+
+## ℹ️ CPU Barchart Status Message
+
+This message appears when the overlay cannot determine your system’s physical core count. It is shown only when:
+
+- **HWiNFO64 is not running** / **Shared Memory Support** is disabled  
+- **No value has been assigned** in the **CPU Core Count Override** sensor  
+
+When these conditions are met, the overlay is unable to generate a CPU barchart.  
+It temporarily displays this status message to prompt the user to either launch HWiNFO64 or manually assign their CPU core count:
 
 **“HWiNFO not running: Start HWiNFO or set CPU Core Count Override.”**
-
-This message only appears when **HWiNFO is offline or not sending sensor data through Shared Memory**, *and* the user has **not** manually set a value in the **[CPU Core Count Override](#-cpu-core-count-override-sensor)** sensors Correction formula.  
 
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/CPU_Barchart_Info_Message.png?raw=true">
@@ -501,18 +558,7 @@ This message only appears when **HWiNFO is offline or not sending sensor data th
 
 Once HWiNFO is running—or an override value is provided—the barchart will display normally.
 
-## 📊 CPU Core Count Override Sensor
-
-A new override sensor now allows users to **manually select which CPU barchart is displayed**.  
-To use it, open **Data sources** **`Ctrl + D`** and enter your physical CPU core count into the **Correction formula**.  
-📊 Supported charts: **4, 6, 8, 10, 12, 14, 16, 20, 24**.  
-> 📝 Note: This feature is intended for users who don’t run HWiNFO or who prefer full manual control. After entering your core count, be sure to **Save your preset**, so the override persists and you won’t need to re-enter it later.
-
-<p align="center">
-  <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/CPU_Core_Count_Override_Sensor.png?raw=true">
-</p>
-
-> 📝 Note: For **automatic CPU core detection** (HWiNFO), the Correction formula must stay **empty**.
+---
 
 # ❤️ A Note to the Community
 
