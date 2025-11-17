@@ -20,7 +20,7 @@ A high-precision, **adaptive** performance overlay for RTSS that automatically a
 
 # 💎 Features
 
-Quick Links: [🧠 System Monitoring](#-system-monitoring), [📊 Adaptive CPU Barchart](#-adaptive-cpu-barchart), [🕹️ Latency Module](#%EF%B8%8F-latency-module-reflex--presentmon-integration), [🔺 Frame Gen Indicator](#-frame-gen-indicator), [📈 FrameTime Graph](#-frametime-graph--stutter-detection), [🌡️ Thermal Throttle Detection](#%EF%B8%8F-thermal-throttle-detection), [⚡️ Power Detector Module](#%EF%B8%8F-power-detector-module-for-supported-gpus), [🗃️ Included Presets](#-included-presets), [🧩 Organized Layers](#-organized-layer-structure)
+Quick Links: [🧠 System Monitoring](#-system-monitoring), [📊 Adaptive CPU Barchart](#-adaptive-cpu-barchart), [🕹️ Latency Module](#%EF%B8%8F-latency-module-reflex--presentmon-integration), [🔺 Frame Gen Indicator](#-frame-gen-indicator), [📈 FrameTime Graph](#-frametime-graph--stutter-detection), [🌡️ Thermal Throttle Detection](#%EF%B8%8F-thermal-throttle-detection), [⚡️ Power Detector Module](#%EF%B8%8F-power-detector-module-for-supported-gpus), [🗃️ Included Presets](#%EF%B8%8F-included-presets), [🧩 Organized Layers](#-organized-layer-structure)
 
 ## 🧠 System Monitoring
 Displays all standard real-time performance metrics including **1% lows**, **average**, and **current FPS**, as well as **CPU and GPU temperatures**, **clock speeds**, **utilization**, **VRAM and system RAM usage**, **latency**, and **power readings** — providing a complete overview of system performance at a glance.
