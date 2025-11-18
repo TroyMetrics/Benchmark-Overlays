@@ -56,6 +56,7 @@ Color presets include: **🟩 Ghostly Green & White (original)**, **🎨 Color M
 </p>
 
 The Color **Mod 2-Tone** presets let you transform the overlay’s accent color instantly. Just set a value from **0–100** in the **Color** sensor's Correction formula field and the entire overlay shifts to your chosen hue! — no manual layer editing required. 🪄
+Perfect for streamers, benchmarkers, and content creators who want their overlay to match each game’s style, mood, or aesthetic on the fly 🔥
 
 > 🧙‍♂️ Learn **[how to customize the Color Mod 2-Tone preset](#-color-mod-2-tone-color-adjustment)**
 
@@ -392,9 +393,7 @@ A handy Color Reference Chart is included to guide your inner artist:
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Color_Reference_Chart.png?raw=true">
 </div>  
 
-> 📝 Example: Setting the **Color** sensor to `50` produces a **Cyan** accent color.  
-
-Perfect for streamers, benchmarkers, and content creators who love to match their overlay quickly with each game’s vibe — all without editing layer properties manually. 🔥
+> 🧙‍♂️ Setting the **Color** sensor to 50 produces a **Cyan** accent color.  
 
 ---
 
