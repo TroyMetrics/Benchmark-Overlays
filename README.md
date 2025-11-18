@@ -47,7 +47,7 @@ Displays all standard real-time performance metrics including **1% lows**, **ave
 
 Color presets include: **🟩 Ghostly Green & White (original)**, **🎨 Color Mod 2-Tone**, **🟩 Pure Green**, **🟦 Electric Blue**, **🟨 Bright Yellow**, **🩷 Hot Pink**, **🟧 Pure Orange**, **🟩 Ghostly Green**, and **🌈 Animated Rainbow** (introduced in [v1.10](https://github.com/TroyMetrics/Benchmark-Overlays/releases/tag/v1.10))  
 
-> 🧙‍♂️ Learn **[how to adjust the rainbow animation speed](#-rainbow-animation-speed-sensor-control)**
+> 🧙‍♂️ **[Learn how to adjust the rainbow animation speed](#-rainbow-animation-speed-sensor-control)**
 
 ### 🎨 Color Mod 2-Tone
 
@@ -59,7 +59,7 @@ The Color **Mod 2-Tone** presets let you transform the overlay’s accent color 
 
 Perfect for streamers, benchmarkers, and content creators who want their overlay to match each game’s style, mood, or aesthetic on the fly 🔥
 
-> 🧙‍♂️ Learn **[how to customize the Color Mod 2-Tone preset](#-color-mod-2-tone-color-adjustment)**
+> 🧙‍♂️ **[Learn how to customize the Color Mod 2-Tone preset](#-color-mod-2-tone-color-adjustment)**
 
 ---
 
