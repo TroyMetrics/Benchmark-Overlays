@@ -41,6 +41,8 @@ Displays all standard real-time performance metrics including **1% lows**, **ave
 
 ## 🗃️ Included Presets
 
+The overlay package includes a curated set of **26 presets**, featuring 11 optimized **1080p** layouts, 2 **Color Mod 2-Tone** options, 2 **Animated Rainbow** variants, 2 dedicated **12VHPWR Power Detector-Only** presets, plus multiple **color variants** for instant personalization.
+
 ### 🌈 Color Presets
 
 <div align="center">
