@@ -467,8 +467,6 @@ The **Latency Module** includes 4 latency sensors to allow for **PresentMon late
 
 The Data source functions `presentmonlatency(markerFrom, markerTo)` and `reflexlatency(markerFrom, markerTo)` calculate the latency between two defined markers within the current frame, as [explained here](https://forums.guru3d.com/threads/msi-ab-rtss-development-news-thread.412822/page-224#post-6223060). Refer to the charts below for a clearer understanding of how each marker pair is used. In this overlay, the formula "**min(**`presentmonlatency(1,8)`**, 999.9)**" clamps latency values to a maximum of **999.9 ms** purely for aesthetic consistency and to prevent overflow during abnormal spikes.
 
-<br><br>
-
 **🟦 PresentMon Latency Markers**
 
 | **Index** | **Marker Name** | **Meaning** |
