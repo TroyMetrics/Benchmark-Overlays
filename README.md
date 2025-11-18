@@ -492,8 +492,6 @@ The Data source functions `presentmonlatency(markerFrom, markerTo)` and `reflexl
 - PresentMon measures **Simulation-to-Display**, but does **not** include driver-internal queueing or scheduling latency.  
 - Marker `0` (`input_sample`) exists for compatibility with Reflex Analyzer hardware but does not output data in standard PresentMon telemetry.
 
-<br><br>
-
 **🟩 NVIDIA Reflex Latency Markers**
 
 | **Index** | **Marker Name** | **Meaning** |
