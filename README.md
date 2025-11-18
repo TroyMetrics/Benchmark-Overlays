@@ -274,8 +274,6 @@ To adjust scaling, simply use the Zoom slider in RTSS to fit your display.
 🖥️ For 1080p users, select the 1080p presets — these were fully redesigned to deliver crisp visuals and proper scaling at 1080p resolution. <br><br>
 ✅ Your overlay is now fully active and ready to use!
 
-<br><br>
-
 ---
 
 # ⚡️ Power Detector Features & Warnings
@@ -292,7 +290,7 @@ This status icon indicates that all 12VHPWR pins are operating within expected p
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Preview.gif?raw=true">
 </p>
 
-<br><br>
+---
 
 ## **🟡 Warning State (Power Imbalance)**
 
@@ -301,7 +299,7 @@ This status icon and alert activates when a significant current disparity is det
 <p align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Imbalance_Chart.gif?raw=true">
 
-<br><br>
+---
 
 ## **🔴 Danger State (Power Alert)**
 
@@ -311,7 +309,7 @@ This status icon and alert is triggered when one or more 12VHPWR pins exceed the
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Power_Detector_Power_Alert_Preview.png?raw=true">
 </p>
 
-<br><br>
+---
 
 ## **➖ Sensors Not Available**
 
