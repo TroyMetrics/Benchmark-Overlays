@@ -6,6 +6,10 @@
     <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Video_Thumbnail.png?raw=true" width="850">
   </a>
 </div>
+<br><br>
+<p align="center">
+  <a href="#%EF%B8%8F-setup--installation">🚀 SETUP & INSTALLATION</a>
+</p>
 
 # 📖 Overview
 
