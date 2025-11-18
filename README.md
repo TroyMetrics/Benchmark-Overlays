@@ -278,7 +278,10 @@ To adjust scaling, simply use the Zoom slider in RTSS to fit your display.
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/RTSS_Zoom_Example.gif?raw=true">
 </div>  
 🖥️ For 1080p users, select the 1080p presets — these were fully redesigned to deliver crisp visuals and proper scaling at 1080p resolution. <br><br>
+
 ✅ Your overlay is now fully active and ready to use!
+
+> 📌 Jump to [Additional Settings & Information](#-additional-settings--information) or [Setting User-defined Thresholds](#-setting-user-defined-thresholds)
 
 ---
 
