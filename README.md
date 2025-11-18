@@ -563,7 +563,7 @@ To use it, open **Data sources (`Ctrl + D`)** and enter your physical CPU core c
 The status message **“HWiNFO not running: Start HWiNFO or set CPU Core Count Override.”** appears when the overlay cannot determine your system’s physical core count. It is shown only when the following it true:
 
 - **HWiNFO64 is not running** / **Shared Memory Support** is disabled  
-- **No value has been assigned** in the **[CPU Core Count Override Sensor](#-cpu-core-count-override-sensor)** sensor  
+- **No value has been assigned** in the **[CPU Core Count Override](#-cpu-core-count-override-sensor)** sensor  
 
 It displays this status message to prompt the user to either launch HWiNFO64 (or enable Shared Memory Support) or manually assign their CPU core count using the **[CPU Core Count Override Sensor](#-cpu-core-count-override-sensor)**
 
