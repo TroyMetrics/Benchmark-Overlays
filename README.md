@@ -6,14 +6,14 @@
     <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/Video_Thumbnail.png?raw=true" width="850">
   </a>
 </div>
-<br><br>
-<p align="center">
-  <a href="#%EF%B8%8F-setup--installation">🚀 SETUP & INSTALLATION</a>
-</p>
 
 # 📖 Overview
 
 A high-precision, **adaptive** performance overlay for RTSS that automatically aligns with your system’s hardware configuration—covering CPU & GPU telemetry, latency, frametime, power delivery, and more. Designed for benchmarkers, gamers, system builders, enthusiasts, and content creators, it unifies dozens of advanced metrics into a single clean, cohesive display. Powered by RTSS and HWiNFO64, the overlay is optimized for accurate, real-time analysis across resolutions from 720p to 4K, whether for gameplay monitoring or formal benchmarking workflows.
+
+<p align="center">
+  <a href="#%EF%B8%8F-setup--installation">🚀 SETUP & INSTALLATION</a>
+</p>
 
 <div align="center">
   <img src="https://github.com/TroyMetrics/Benchmark-Overlays/blob/main/assets/images/2-Fan_Preview.gif?raw=true" style="max-height: 800px; width: auto;">
