@@ -56,6 +56,7 @@ Color presets include: **🟩 Ghostly Green & White (original)**, **🎨 Color M
 </p>
 
 The Color **Mod 2-Tone** presets let you transform the overlay’s accent color instantly. Just set a value from **0–100** in the **Color** sensor's Correction formula field and the entire overlay shifts to your chosen hue! — no manual layer editing required. 🪄
+
 Perfect for streamers, benchmarkers, and content creators who want their overlay to match each game’s style, mood, or aesthetic on the fly 🔥
 
 > 🧙‍♂️ Learn **[how to customize the Color Mod 2-Tone preset](#-color-mod-2-tone-color-adjustment)**
