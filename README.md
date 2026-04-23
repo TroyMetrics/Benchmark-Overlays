@@ -593,6 +593,15 @@ If you encounter any issues — CPU core ordering, overlapping layers, incorrect
 Your reports and suggestions directly help this project grow.
 Thank you for testing, supporting, and helping make the TroyMetrics Benchmark Overlay better for everyone. 🙏
 
+# 🧙‍♂️ More from TroyMetrics
+
+If you enjoy this overlay, check out some other designs:
+
+- [📌 (New) **TroyMetrics Benchmark Overlays 2**](https://github.com/TroyMetrics/Benchmark-Overlays-2)
+- [📌 **TM GamerStats 1080p**](https://github.com/TroyMetrics/TM-GamerStats-1080p)
+
+*(This list will continue to expand as more designs are released.)*
+
 🚀 Enjoy benchmarking with **TroyMetrics Benchmark Overlays**!  
 
 ## ☕ **Enjoying the overlay?**  
